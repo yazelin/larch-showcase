@@ -108,6 +108,32 @@
   <!-- Main Content -->
   <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full z-10">
 
+    <!-- Market Section Banner -->
+    <section class="mb-8 p-4 sm:p-5 rounded-3xl bg-gradient-to-r from-brand-500/15 via-indigo-500/10 to-amber-500/15 border border-brand-500/30 backdrop-blur-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-sm relative overflow-hidden">
+      <div class="flex items-center gap-4 z-10">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-500 border border-amber-500/30 flex items-center justify-center text-2xl shrink-0 shadow-inner">
+          🏆
+        </div>
+        <div>
+          <div class="flex items-center gap-2 flex-wrap">
+            <h2 class="text-base font-extrabold text-slate-900 dark:text-white">Larch 遊戲市集收錄作品</h2>
+            <span class="px-2.5 py-0.5 rounded-full text-xs bg-amber-500/20 text-amber-600 dark:text-amber-400 font-extrabold border border-amber-500/30">
+              全站 #1 榮譽 · Top 10 獨佔 5 席
+            </span>
+          </div>
+          <p class="text-xs text-slate-600 dark:text-slate-300 mt-1 leading-relaxed">
+            全站市集共 91 款遊戲，林亞澤共有 19 部作品上架（佔全站 20.9%），包含全站點閱／遊玩第一名《格莉奇與黑洞先生》。
+          </p>
+        </div>
+      </div>
+      <a href="https://larch.ink/market?section=games" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-2xl bg-white dark:bg-surface-900 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700/80 font-bold text-xs transition flex items-center gap-2 shrink-0 shadow-sm group z-10">
+        <span>探索 Larch 遊戲市集專區</span>
+        <svg class="w-4 h-4 text-slate-400 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
+    </section>
+
     <!-- KPI Summary Cards -->
     <section class="grid grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4 mb-8">
       <!-- Total Views -->
@@ -196,6 +222,7 @@
           <label for="sort-select" class="text-xs text-slate-500 dark:text-slate-400 font-medium">排序：</label>
           <select id="sort-select" class="text-xs py-2 px-3 rounded-xl bg-slate-100/80 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/60 font-medium text-slate-700 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
             <option value="views-desc">總瀏覽 (高至低)</option>
+            <option value="market-rank-asc">市集排名 (Top 1 起)</option>
             <option value="plays-desc">總遊玩 (高至低)</option>
             <option value="likes-desc">愛心數 (高至低)</option>
             <option value="comments-desc">留言數 (高至低)</option>

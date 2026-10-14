@@ -241,6 +241,8 @@ function applyFiltersAndRender() {
   // Sort
   filtered.sort((a, b) => {
     switch (currentSort) {
+      case 'market-rank-asc':
+        return (a.marketRank || 999) - (b.marketRank || 999);
       case 'views-desc':
         return (b.views || 0) - (a.views || 0);
       case 'plays-desc':
@@ -295,6 +297,16 @@ function renderWorks(works) {
         aiBadge = `<span class="badge-ai-original text-[10px] font-semibold px-2 py-0.5 rounded-full">原創無 AI</span>`;
       }
     }
+
+    // Market Rank Badge
+    let rankBadge = '';
+    if (w.marketRank === 1) {
+      rankBadge = `<span class="badge-rank-gold px-2.5 py-1 rounded-xl text-[10px] font-black tracking-wide flex items-center gap-1 shadow-sm">🏆 全站第 1 名</span>`;
+    } else if (w.marketRank && w.marketRank <= 10) {
+      rankBadge = `<span class="badge-rank-top10 px-2.5 py-1 rounded-xl text-[10px] font-bold flex items-center gap-1">🏅 Top ${w.marketRank}</span>`;
+    } else if (w.marketRank) {
+      rankBadge = `<span class="px-2 py-0.5 rounded-lg bg-black/60 backdrop-blur-md text-[10px] font-mono text-slate-300 border border-white/10">#${w.marketRank}</span>`;
+    }
     
     // Chapters summary
     const chapters = w.chapters || [];
@@ -316,9 +328,12 @@ function renderWorks(works) {
           
           <!-- Top Badges -->
           <div class="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
-            <span class="px-2.5 py-1 rounded-xl bg-black/60 backdrop-blur-md text-[11px] font-mono font-bold text-white border border-white/10 shadow-sm">
-              v${w.version || '1.0'}
-            </span>
+            <div class="flex items-center gap-1.5">
+              <span class="px-2.5 py-1 rounded-xl bg-black/60 backdrop-blur-md text-[11px] font-mono font-bold text-white border border-white/10 shadow-sm">
+                v${w.version || '1.0'}
+              </span>
+              ${rankBadge}
+            </div>
             <div class="flex items-center gap-1.5">
               ${aiBadge}
               ${w.releaseNumber ? `<span class="px-2 py-0.5 rounded-full bg-white/20 backdrop-blur-md text-[10px] font-semibold text-white">#${w.releaseNumber} 發布</span>` : ''}
@@ -405,12 +420,21 @@ function renderWorks(works) {
               </a>
 
               <a 
+                href="${w.marketUrl || `https://larch.ink/market?section=games&game=${w.id}`}" 
+                target="_blank" 
+                class="py-2 px-2.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/20 font-medium text-xs transition flex items-center gap-1"
+                title="在 Larch 遊戲市集中查看本作品"
+              >
+                <span>市集專頁</span>
+              </a>
+
+              <a 
                 href="${workUrl}" 
                 target="_blank" 
-                class="py-2 px-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium text-xs transition flex items-center gap-1"
-                title="Larch 市集作品首頁"
+                class="py-2 px-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium text-xs transition flex items-center gap-1"
+                title="Larch 作品原始主頁"
               >
-                <span>市集主頁</span>
+                <span>首頁</span>
               </a>
 
               ${externalLink ? `
