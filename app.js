@@ -21,6 +21,8 @@ const kpiTotalNodesEl = document.getElementById('kpi-total-nodes');
 
 const worksGridEl = document.getElementById('works-grid');
 const tagsContainerEl = document.getElementById('tags-container');
+const moreTagsPanelEl = document.getElementById('more-tags-panel');
+let isMoreTagsExpanded = false;
 const searchInputEl = document.getElementById('search-input');
 const sortSelectEl = document.getElementById('sort-select');
 const filteredCountEl = document.getElementById('filtered-count');
@@ -173,21 +175,36 @@ function renderTags() {
     (w.tags || []).forEach(t => {
       tagCounts[t] = (tagCounts[t] || 0) + 1;
     });
-    if (w.eventId) {
-      tagCounts[w.eventId] = (tagCounts[w.eventId] || 0) + 1;
-    }
   });
   
-  const sortedTags = Object.keys(tagCounts).sort((a, b) => {
-    if (a === 'ALL') return -1;
-    if (b === 'ALL') return 1;
-    return tagCounts[b] - tagCounts[a];
-  });
+  // Top featured categories to display on the primary row
+  const FEATURED_CANDIDATES = [
+    'ALL',
+    '視覺小說',
+    '多結局',
+    '全語音',
+    'RPG',
+    '三國改編',
+    '第三屆創作者挑戰',
+    '第二屆創作者挑戰',
+    '背包解謎',
+    '專屬配樂',
+    '小遊戲'
+  ];
+
+  const featuredTags = FEATURED_CANDIDATES.filter(t => t === 'ALL' || (tagCounts[t] && tagCounts[t] > 0));
   
-  tagsContainerEl.innerHTML = sortedTags.map(tag => {
+  const allOtherTags = Object.keys(tagCounts)
+    .filter(t => !featuredTags.includes(t))
+    .sort((a, b) => tagCounts[b] - tagCounts[a]);
+
+  const isSecondaryActive = allOtherTags.includes(activeTag);
+
+  // 1. Render Featured Main Row
+  let mainHtml = featuredTags.map(tag => {
     const isSelected = activeTag === tag;
     const label = tag === 'ALL' ? '全部作品' : tag;
-    const count = tagCounts[tag];
+    const count = tagCounts[tag] || 0;
     
     return `
       <button 
@@ -203,7 +220,71 @@ function renderTags() {
       </button>
     `;
   }).join('');
-  
+
+  // 2. Add "More Tags" toggle button
+  if (allOtherTags.length > 0) {
+    mainHtml += `
+      <button 
+        id="toggle-more-tags-btn"
+        class="text-xs px-3 py-1.5 rounded-xl font-medium transition flex items-center gap-1.5 ${
+          isSecondaryActive 
+            ? 'bg-brand-500/15 text-brand-600 dark:text-brand-400 border border-brand-500/40 font-bold' 
+            : 'bg-slate-100/90 dark:bg-slate-800/80 text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 border border-transparent'
+        }"
+      >
+        <span>${isSecondaryActive ? `已選標籤：${activeTag}` : '更多標籤'}</span>
+        <span class="text-[10px] font-mono px-1.5 py-0.2 rounded-full ${isSecondaryActive ? 'bg-brand-500/20 text-brand-600 dark:text-brand-400' : 'bg-black/5 dark:bg-white/10'}">${allOtherTags.length}</span>
+        <svg class="w-3.5 h-3.5 transition-transform duration-200 ${isMoreTagsExpanded ? 'rotate-180' : ''}" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+    `;
+  }
+
+  tagsContainerEl.innerHTML = mainHtml;
+
+  // 3. Render Secondary Drawer Panel
+  if (moreTagsPanelEl) {
+    if (isMoreTagsExpanded) {
+      moreTagsPanelEl.classList.remove('hidden');
+      moreTagsPanelEl.innerHTML = `
+        <div class="w-full flex items-center justify-between pb-1.5 text-[11px] font-semibold text-slate-400 dark:text-slate-500">
+          <span>進階細部標籤 (${allOtherTags.length})</span>
+          <button id="close-more-tags-btn" class="hover:text-slate-600 dark:hover:text-slate-300 font-medium">收起 ✕</button>
+        </div>
+        ${allOtherTags.map(tag => {
+          const isSelected = activeTag === tag;
+          const count = tagCounts[tag];
+          return `
+            <button 
+              data-tag="${tag}"
+              class="tag-btn text-xs px-2.5 py-1 rounded-lg font-medium transition flex items-center gap-1.5 ${
+                isSelected 
+                  ? 'bg-brand-500 text-white shadow-sm shadow-brand-500/30' 
+                  : 'bg-white dark:bg-surface-900 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 border border-slate-200/80 dark:border-slate-700/80'
+              }"
+            >
+              <span>${tag}</span>
+              <span class="text-[10px] px-1 rounded-full ${isSelected ? 'bg-white/20' : 'bg-slate-100 dark:bg-slate-800 text-slate-400'}">${count}</span>
+            </button>
+          `;
+        }).join('')}
+      `;
+
+      const closeBtn = document.getElementById('close-more-tags-btn');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+          isMoreTagsExpanded = false;
+          renderTags();
+        });
+      }
+    } else {
+      moreTagsPanelEl.classList.add('hidden');
+      moreTagsPanelEl.innerHTML = '';
+    }
+  }
+
+  // Bind click listeners for tag buttons in main container
   tagsContainerEl.querySelectorAll('.tag-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       activeTag = btn.dataset.tag;
@@ -211,6 +292,26 @@ function renderTags() {
       applyFiltersAndRender();
     });
   });
+
+  // Bind click listeners for tag buttons in more panel
+  if (moreTagsPanelEl) {
+    moreTagsPanelEl.querySelectorAll('.tag-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeTag = btn.dataset.tag;
+        renderTags();
+        applyFiltersAndRender();
+      });
+    });
+  }
+
+  // Bind toggle more tags button
+  const toggleBtn = document.getElementById('toggle-more-tags-btn');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      isMoreTagsExpanded = !isMoreTagsExpanded;
+      renderTags();
+    });
+  }
 }
 
 // Filter and Sort
@@ -281,6 +382,7 @@ function renderWorks(works) {
   
   worksGridEl.innerHTML = works.map(w => {
     const author = w.authorHandle || 'yaze';
+    const slug = w.customSlug || w.id;
     const playUrl = w.playUrl || (w.customSlug ? `https://larch.ink/play/market/${author}/${w.customSlug}` : `https://larch.ink/play/market/${w.id}`);
     const workUrl = w.workUrl || (w.customSlug ? `https://larch.ink/work/${w.customSlug}` : `https://larch.ink/work/${w.id}`);
     const coverUrl = w.coverUrl || 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80';
@@ -297,6 +399,18 @@ function renderWorks(works) {
       }
     }
 
+    // Event Badge (Clean Chinese Label)
+    let eventBadge = '';
+    if (w.eventId) {
+      const eventNameMap = {
+        'creator-challenge-2026-10': '第 3 屆挑戰',
+        'creator-challenge-2026-09': '第 2 屆挑戰',
+        'creator-challenge-2026-08': '七日挑戰'
+      };
+      const label = eventNameMap[w.eventId] || w.eventId;
+      eventBadge = `<span class="px-2 py-0.5 rounded-full bg-indigo-600/80 backdrop-blur-md text-[10px] font-bold text-white border border-indigo-300/30 shadow-sm">${label}</span>`;
+    }
+
     // Market Rank Badge
     let rankBadge = '';
     if (w.marketRank === 1) {
@@ -311,6 +425,13 @@ function renderWorks(works) {
     const chapters = w.chapters || [];
     const nodeCount = chapters.reduce((acc, c) => acc + (c.nodeCount || 0), 0);
     const externalLink = extractLinkFromDesc(w.description);
+
+    // Card Tags: limit to 3, fixed single row with overflow hidden and +N tooltip
+    const tags = w.tags || [];
+    const MAX_CARD_TAGS = 3;
+    const visibleCardTags = tags.slice(0, MAX_CARD_TAGS);
+    const hiddenTagsCount = tags.length - MAX_CARD_TAGS;
+    const hiddenTagsTooltip = tags.slice(MAX_CARD_TAGS).join('、');
     
     return `
       <div class="work-card bg-white/80 dark:bg-surface-900/80 rounded-3xl border border-slate-200/80 dark:border-slate-800/80 overflow-hidden shadow-sm flex flex-col backdrop-blur-sm relative group">
@@ -327,13 +448,14 @@ function renderWorks(works) {
           
           <!-- Top Badges -->
           <div class="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
-            <div class="flex items-center gap-1.5">
+            <div class="flex items-center gap-1.5 flex-wrap">
               <span class="px-2.5 py-1 rounded-xl bg-black/60 backdrop-blur-md text-[11px] font-mono font-bold text-white border border-white/10 shadow-sm">
                 v${w.version || '1.0'}
               </span>
               ${rankBadge}
             </div>
-            <div class="flex items-center gap-1.5">
+            <div class="flex items-center gap-1.5 flex-wrap justify-end">
+              ${eventBadge}
               ${aiBadge}
               ${w.releaseNumber ? `<span class="px-2 py-0.5 rounded-full bg-white/20 backdrop-blur-md text-[10px] font-semibold text-white">#${w.releaseNumber} 發布</span>` : ''}
             </div>
@@ -353,10 +475,18 @@ function renderWorks(works) {
         <!-- Card Body -->
         <div class="p-5 flex-grow flex flex-col justify-between">
           <div>
-            <!-- Tags -->
-            <div class="flex flex-wrap gap-1.5 mb-3">
-              ${(w.tags || []).map(t => `<span class="text-[10px] font-medium px-2 py-0.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">${t}</span>`).join('')}
-              ${w.eventId ? `<span class="text-[10px] font-medium px-2 py-0.5 rounded-lg bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20">${w.eventId}</span>` : ''}
+            <!-- Tags (Strictly 1 row, uniform 24px height, avoids breaking card heights) -->
+            <div class="flex items-center flex-wrap gap-1.5 mb-3 h-6 overflow-hidden">
+              ${visibleCardTags.map(t => `<span class="text-[10px] font-medium px-2 py-0.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 whitespace-nowrap">${t}</span>`).join('')}
+              ${hiddenTagsCount > 0 ? `
+                <span 
+                  class="text-[10px] font-semibold px-1.5 py-0.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-400 hover:text-brand-500 dark:hover:text-brand-400 cursor-pointer transition border border-slate-200/50 dark:border-slate-700/50 view-chapters-btn"
+                  data-work-id="${w.id}"
+                  title="點擊查看全部標籤：${hiddenTagsTooltip}"
+                >
+                  +${hiddenTagsCount}
+                </span>
+              ` : ''}
             </div>
 
             <!-- Description (collapsible) -->
@@ -486,8 +616,21 @@ function openChapterModal(work) {
   modalSubtitleEl.textContent = `@${work.authorHandle || 'yaze'}/${work.customSlug || work.id} · 共 ${work.chapters?.length || 0} 章節`;
   modalPlayLinkEl.href = work.playUrl || (work.customSlug ? `https://larch.ink/play/market/${work.authorHandle || 'yaze'}/${work.customSlug}` : `https://larch.ink/play/market/${work.id}`);
   
+  const tags = work.tags || [];
+  const tagsHtml = tags.length > 0 ? `
+    <div class="p-3.5 rounded-2xl bg-slate-50 dark:bg-surface-950 border border-slate-100 dark:border-slate-800">
+      <div class="text-[11px] font-bold text-slate-400 dark:text-slate-500 mb-2 flex items-center justify-between">
+        <span>作品全標籤 (${tags.length})</span>
+        ${work.eventId ? `<span class="text-indigo-500 font-normal font-sans">活動：${work.eventId}</span>` : ''}
+      </div>
+      <div class="flex flex-wrap gap-1.5">
+        ${tags.map(t => `<span class="text-xs px-2.5 py-1 rounded-xl bg-white dark:bg-surface-900 border border-slate-200/70 dark:border-slate-700/70 text-slate-700 dark:text-slate-300 font-medium">${t}</span>`).join('')}
+      </div>
+    </div>
+  ` : '';
+
   const chapters = work.chapters || [];
-  modalChaptersListEl.innerHTML = chapters.map((c, i) => {
+  const chaptersHtml = chapters.map((c, i) => {
     const cover = c.coverUrl || '';
     return `
       <div class="p-3.5 rounded-2xl bg-slate-50 dark:bg-surface-950 border border-slate-100 dark:border-slate-800 flex items-center justify-between gap-4">
@@ -509,6 +652,8 @@ function openChapterModal(work) {
       </div>
     `;
   }).join('');
+  
+  modalChaptersListEl.innerHTML = tagsHtml + chaptersHtml;
   
   chapterModalEl.classList.remove('hidden');
   setTimeout(() => {
