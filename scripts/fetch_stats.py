@@ -323,10 +323,15 @@ def main():
     for w in works:
         wid = w.get("id")
         author = w.get("authorHandle", "yaze")
-        slug = w.get("customSlug") or wid
-        w["playUrl"] = f"https://larch.ink/play/market/{author}/{slug}"
-        w["workUrl"] = f"https://larch.ink/work/{slug}"
-        w["authorUrl"] = f"https://larch.ink/@{author}/{slug}"
+        slug = w.get("customSlug")
+        if slug:
+            w["playUrl"] = f"https://larch.ink/play/market/{author}/{slug}"
+            w["workUrl"] = f"https://larch.ink/work/{slug}"
+            w["authorUrl"] = f"https://larch.ink/@{author}/{slug}"
+        else:
+            w["playUrl"] = f"https://larch.ink/play/market/{wid}"
+            w["workUrl"] = f"https://larch.ink/work/{wid}"
+            w["authorUrl"] = f"https://larch.ink/work/{wid}"
         # Direct game page inside https://larch.ink/market?section=games
         w["marketUrl"] = f"https://larch.ink/market?section=games&game={wid}"
         

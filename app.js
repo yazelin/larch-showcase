@@ -280,10 +280,9 @@ function renderWorks(works) {
   }
   
   worksGridEl.innerHTML = works.map(w => {
-    const slug = w.customSlug || w.id;
     const author = w.authorHandle || 'yaze';
-    const playUrl = w.playUrl || `https://larch.ink/play/market/${author}/${slug}`;
-    const workUrl = w.workUrl || `https://larch.ink/work/${slug}`;
+    const playUrl = w.playUrl || (w.customSlug ? `https://larch.ink/play/market/${author}/${w.customSlug}` : `https://larch.ink/play/market/${w.id}`);
+    const workUrl = w.workUrl || (w.customSlug ? `https://larch.ink/work/${w.customSlug}` : `https://larch.ink/work/${w.id}`);
     const coverUrl = w.coverUrl || 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80';
     
     // AI Disclosure Badge
@@ -485,7 +484,7 @@ function renderWorks(works) {
 function openChapterModal(work) {
   modalTitleEl.textContent = work.title;
   modalSubtitleEl.textContent = `@${work.authorHandle || 'yaze'}/${work.customSlug || work.id} · 共 ${work.chapters?.length || 0} 章節`;
-  modalPlayLinkEl.href = work.playUrl || `https://larch.ink/play/market/${work.authorHandle || 'yaze'}/${work.customSlug || work.id}`;
+  modalPlayLinkEl.href = work.playUrl || (work.customSlug ? `https://larch.ink/play/market/${work.authorHandle || 'yaze'}/${work.customSlug}` : `https://larch.ink/play/market/${work.id}`);
   
   const chapters = work.chapters || [];
   modalChaptersListEl.innerHTML = chapters.map((c, i) => {
