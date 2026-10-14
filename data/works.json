@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-14T03:34:56.071095+00:00",
-  "updated_at_cst": "2026-10-14 11:34:56",
+  "updated_at": "2026-10-14T03:38:38.580240+00:00",
+  "updated_at_cst": "2026-10-14 11:38:38",
   "author": "yaze",
   "summary": {
     "total_works": 19,
-    "total_views": 10451,
-    "total_plays": 1312,
+    "total_views": 10458,
+    "total_plays": 1314,
     "total_likes": 68,
     "total_comments": 189,
     "total_unanswered": 5,
@@ -124,10 +124,10 @@
           "followed": false
         }
       ],
-      "views": 292,
-      "plays": 21,
-      "lastViewedAt": "2026-10-14T03:33:53.735Z",
-      "lastPlayedAt": "2026-10-13T14:28:00.034Z",
+      "views": 293,
+      "plays": 23,
+      "lastViewedAt": "2026-10-14T03:35:47.249Z",
+      "lastPlayedAt": "2026-10-14T03:35:58.823Z",
       "likes": 3,
       "comments": 4,
       "danmaku": 1,
@@ -175,9 +175,9 @@
           "followed": false
         }
       ],
-      "views": 217,
+      "views": 218,
       "plays": 47,
-      "lastViewedAt": "2026-10-14T03:03:02.593Z",
+      "lastViewedAt": "2026-10-14T03:36:29.866Z",
       "lastPlayedAt": "2026-10-14T02:20:53.115Z",
       "likes": 2,
       "comments": 14,
@@ -242,9 +242,9 @@
           "followed": false
         }
       ],
-      "views": 325,
+      "views": 326,
       "plays": 27,
-      "lastViewedAt": "2026-10-14T03:28:48.861Z",
+      "lastViewedAt": "2026-10-14T03:36:29.047Z",
       "lastPlayedAt": "2026-10-13T17:07:51.117Z",
       "likes": 3,
       "comments": 19,
@@ -585,9 +585,9 @@
           "followed": false
         }
       ],
-      "views": 868,
+      "views": 869,
       "plays": 95,
-      "lastViewedAt": "2026-10-14T03:03:02.593Z",
+      "lastViewedAt": "2026-10-14T03:36:29.047Z",
       "lastPlayedAt": "2026-10-14T02:14:50.635Z",
       "likes": 4,
       "comments": 25,
@@ -715,9 +715,9 @@
           "followed": false
         }
       ],
-      "views": 1132,
+      "views": 1133,
       "plays": 88,
-      "lastViewedAt": "2026-10-14T03:03:02.593Z",
+      "lastViewedAt": "2026-10-14T03:36:29.047Z",
       "lastPlayedAt": "2026-10-11T16:44:22.561Z",
       "likes": 6,
       "comments": 17,
@@ -1037,9 +1037,9 @@
           "followed": false
         }
       ],
-      "views": 387,
+      "views": 388,
       "plays": 38,
-      "lastViewedAt": "2026-10-14T03:03:02.593Z",
+      "lastViewedAt": "2026-10-14T03:36:29.047Z",
       "lastPlayedAt": "2026-10-12T16:47:10.787Z",
       "likes": 1,
       "comments": 0,
@@ -1297,9 +1297,9 @@
           "followed": false
         }
       ],
-      "views": 1037,
+      "views": 1038,
       "plays": 189,
-      "lastViewedAt": "2026-10-14T03:03:02.593Z",
+      "lastViewedAt": "2026-10-14T03:36:29.047Z",
       "lastPlayedAt": "2026-10-13T11:33:23.381Z",
       "likes": 5,
       "comments": 7,
@@ -1472,7 +1472,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/11-minutes",
       "status": 200,
-      "latency_ms": 190,
+      "latency_ms": 463,
       "success": true,
       "error": null,
       "title": "十一分鐘",
@@ -1481,7 +1481,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/prince-hime",
       "status": 200,
-      "latency_ms": 229,
+      "latency_ms": 378,
       "success": true,
       "error": null,
       "title": "王子姬 Prince Hime",
@@ -1490,7 +1490,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/guogurenzhuang",
       "status": 200,
-      "latency_ms": 181,
+      "latency_ms": 892,
       "success": true,
       "error": null,
       "title": "唐詩小旅行：過故人莊",
@@ -1499,7 +1499,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/start-line",
       "status": 200,
-      "latency_ms": 249,
+      "latency_ms": 419,
       "success": true,
       "error": null,
       "title": "起跑總在開始前",
@@ -1508,7 +1508,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "status": 200,
-      "latency_ms": 129,
+      "latency_ms": 416,
       "success": true,
       "error": null,
       "title": "仙泉·香布纏．無雙",
@@ -1517,7 +1517,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "status": 200,
-      "latency_ms": 112,
+      "latency_ms": 444,
       "success": true,
       "error": null,
       "title": "洛泉．袁真跡",
@@ -1526,7 +1526,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/xiangbuchan",
       "status": 200,
-      "latency_ms": 168,
+      "latency_ms": 419,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏",
@@ -1535,7 +1535,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "status": 200,
-      "latency_ms": 376,
+      "latency_ms": 406,
       "success": true,
       "error": null,
       "title": "小遊戲集合・示範",
@@ -1544,7 +1544,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch-inv",
       "status": 200,
-      "latency_ms": 340,
+      "latency_ms": 604,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生・調查篇",
@@ -1553,7 +1553,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/123c83af-0788-4fe5-9cae-ea336d217c3c",
       "status": 200,
-      "latency_ms": 160,
+      "latency_ms": 397,
       "success": true,
       "error": null,
       "title": "晚霞是舌尖最後的刺痛",
@@ -1562,7 +1562,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "status": 200,
-      "latency_ms": 138,
+      "latency_ms": 345,
       "success": true,
       "error": null,
       "title": "淡藍與草木灰綠的雨幕",
@@ -1571,7 +1571,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
       "status": 200,
-      "latency_ms": 184,
+      "latency_ms": 387,
       "success": true,
       "error": null,
       "title": "最終遺忘的橘色餘燼",
@@ -1580,7 +1580,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/53c30eb6-bc5b-48bc-a5a7-a35f5da9ec6e",
       "status": 200,
-      "latency_ms": 144,
+      "latency_ms": 392,
       "success": true,
       "error": null,
       "title": "Larch 直播共創板：簡報、共創與練習",
@@ -1589,7 +1589,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/b3892584-79fc-4c2a-97a2-7394b3df149e",
       "status": 200,
-      "latency_ms": 174,
+      "latency_ms": 473,
       "success": true,
       "error": null,
       "title": "咒泉．白帝城",
@@ -1598,7 +1598,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/174eab77-c1cb-4d0c-b66c-4f1734317946",
       "status": 200,
-      "latency_ms": 152,
+      "latency_ms": 363,
       "success": true,
       "error": null,
       "title": "空白也有質地",
@@ -1607,7 +1607,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/1abe8522-06b6-4527-87ef-ab20eaf9c2af",
       "status": 200,
-      "latency_ms": 209,
+      "latency_ms": 404,
       "success": true,
       "error": null,
       "title": "還沒送到的信",
@@ -1616,7 +1616,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch-phone",
       "status": 200,
-      "latency_ms": 206,
+      "latency_ms": 375,
       "success": true,
       "error": null,
       "title": "格莉奇傳訊來",
@@ -1625,7 +1625,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/3gurl",
       "status": 200,
-      "latency_ms": 440,
+      "latency_ms": 532,
       "success": true,
       "error": null,
       "title": "咒泉．三結義",
@@ -1634,7 +1634,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch",
       "status": 200,
-      "latency_ms": 333,
+      "latency_ms": 513,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生",
