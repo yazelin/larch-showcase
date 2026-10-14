@@ -93,11 +93,12 @@ function extractLinkFromDesc(desc) {
   return null;
 }
 
-// Load Data
-async function loadData() {
+// Load Data with auto-retry and cache-busting
+async function loadData(retryCount = 2) {
   try {
-    const res = await fetch('data/works.json');
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    // Add timestamp to bypass browser cache
+    const res = await fetch(`data/works.json?_t=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status} (${res.statusText || '檔案讀取失敗'})`);
     const data = await res.json();
     
     allWorks = data.works || [];
@@ -112,11 +113,19 @@ async function loadData() {
     // Render Works
     applyFiltersAndRender();
   } catch (err) {
+    if (retryCount > 0) {
+      console.warn(`Fetch data/works.json failed, retrying in 800ms (${retryCount} left)...`, err);
+      setTimeout(() => loadData(retryCount - 1), 800);
+      return;
+    }
     console.error('Failed to load works.json:', err);
     worksGridEl.innerHTML = `
       <div class="col-span-full py-16 text-center text-rose-500">
         <p class="text-base font-bold">載入作品資料失敗</p>
-        <p class="text-xs text-slate-400 mt-2">請確認 data/works.json 是否已生成，或 GitHub Action 是否已執行。</p>
+        <p class="text-xs text-slate-400 mt-2">${err.message || '請確認 data/works.json 是否已生成，或 GitHub Action 是否已執行。'}</p>
+        <button onclick="loadData()" class="mt-4 px-4 py-2 rounded-xl bg-brand-500 hover:bg-brand-600 text-white text-xs font-semibold transition shadow-sm">
+          點此重新載入
+        </button>
       </div>
     `;
   }
