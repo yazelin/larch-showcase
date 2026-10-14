@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-14T04:17:43.758779+00:00",
-  "updated_at_cst": "2026-10-14 12:17:43",
+  "updated_at": "2026-10-14T04:34:05.097975+00:00",
+  "updated_at_cst": "2026-10-14 12:34:05",
   "author": "yaze",
   "market_section_url": "https://larch.ink/market?section=games",
   "summary": {
     "total_works": 19,
-    "total_views": 10467,
-    "total_plays": 1315,
+    "total_views": 10474,
+    "total_plays": 1317,
     "total_likes": 68,
-    "total_comments": 189,
-    "total_unanswered": 5,
+    "total_comments": 194,
+    "total_unanswered": 0,
     "total_danmaku": 11,
     "total_chapters": 50,
     "total_nodes": 2571,
@@ -84,14 +84,14 @@
           "followed": false
         }
       ],
-      "views": 355,
+      "views": 356,
       "plays": 79,
-      "lastViewedAt": "2026-10-14T03:33:53.735Z",
+      "lastViewedAt": "2026-10-14T04:23:50.272Z",
       "lastPlayedAt": "2026-10-14T01:43:48.404Z",
       "likes": 3,
-      "comments": 17,
+      "comments": 18,
       "danmaku": 0,
-      "unanswered": 1,
+      "unanswered": 0,
       "playUrl": "https://larch.ink/play/market/yaze/11-minutes",
       "workUrl": "https://larch.ink/work/11-minutes",
       "authorUrl": "https://larch.ink/@yaze/11-minutes",
@@ -145,14 +145,14 @@
           "followed": false
         }
       ],
-      "views": 294,
+      "views": 295,
       "plays": 23,
-      "lastViewedAt": "2026-10-14T04:11:57.578Z",
+      "lastViewedAt": "2026-10-14T04:23:50.272Z",
       "lastPlayedAt": "2026-10-14T03:35:58.823Z",
       "likes": 3,
-      "comments": 4,
+      "comments": 5,
       "danmaku": 1,
-      "unanswered": 1,
+      "unanswered": 0,
       "playUrl": "https://larch.ink/play/market/yaze/prince-hime",
       "workUrl": "https://larch.ink/work/prince-hime",
       "authorUrl": "https://larch.ink/@yaze/prince-hime",
@@ -206,14 +206,14 @@
           "followed": false
         }
       ],
-      "views": 219,
-      "plays": 47,
-      "lastViewedAt": "2026-10-14T03:54:00.096Z",
-      "lastPlayedAt": "2026-10-14T02:20:53.115Z",
+      "views": 220,
+      "plays": 48,
+      "lastViewedAt": "2026-10-14T04:27:23.960Z",
+      "lastPlayedAt": "2026-10-14T04:27:23.960Z",
       "likes": 2,
-      "comments": 14,
+      "comments": 15,
       "danmaku": 1,
-      "unanswered": 1,
+      "unanswered": 0,
       "playUrl": "https://larch.ink/play/market/yaze/guogurenzhuang",
       "workUrl": "https://larch.ink/work/guogurenzhuang",
       "authorUrl": "https://larch.ink/@yaze/guogurenzhuang",
@@ -226,7 +226,7 @@
     {
       "id": "7bd0c3ed-7e72-476c-8d17-d4d0ed310bae",
       "title": "起跑總在開始前",
-      "description": "高二那年的市運會選拔賽，程徹在八百公尺的起跑線上蹲下，腦袋裡只剩剛才在終點線後面抬頭的那個女生。很多年後，林向晚才告訴他：那天販賣機前掉在地上的十塊錢，是她算好的。\n\n這是一篇我 + gemin 寫好的短篇愛情小說，改成 Larch 的 RPG 作品，投稿第三屆創作者挑戰《自由與限制》。原文一個字都沒改，遊戲需要的過場、提示和結局 B ( claude ) 另外寫，跟原文分開放。\n\n## 同一個下午，玩兩次\n\n第一輪是程徹。去檢錄處拿號碼布，經過終點線時和她四目相對，然後蹲上起跑線、聽槍響、跑完八百公尺兩圈。\n\n第二輪回到同一天、同一張田徑場，換成林向晚。她躲在看台後面偷看他熱身，蒐集三條線索，在筆記本上算出自己幾點該從看台出發，才會比他早一步站在體育館後門的販賣機前。\n\n第一輪看起來是巧合的事，第二輪會看到它是怎麼被安排出來的。\n\n## 自由與限制\n\n挑戰頁把限制分成看得見的、看不見的，還有心裡的。我覺得田徑場剛好三種都有，所以作品照這三層排，一輪比一輪看不見。\n\n看得見的限制在第一輪的起跑線。「預備」之後槍會在 1.5 到 3 秒之間的某一刻響，槍響前碰一下畫面就是偷跑，裁判吹哨，回到起跑線重來。跑道上的規則很清楚，誰都看得見。\n\n看不見的限制在第二輪前半。沒有人規定林向晚不能被發現，但她就是不能。走出看台的遮蔽，他頭上會跳出驚嘆號，她的心跳衝高，被拉回看台後面。她也不能太刻意，所以要先把他的時間算好：他那組幾點開跑、跑完會先做什麼、她自己走過去要多久。\n\n心裡的限制在販賣機前。到了這裡，沒有任何東西擋她，選項只剩兩個：讓零錢掉下去，或轉身離開。\n\n跑道上有人替你開槍，愛情沒有。走出跑道以後，沒有人會替你喊開始，扳機得自己扣。\n\n選轉身離開會走到結局 B。她完全自由，沒有任何事逼她，後來兩個人在別的比賽遇過幾次，誰也沒有先開口。結局 B 的最後一句是「她一直很自由，自由到始終沒有起跑。」\n\n讓零錢掉下去，會一路走到很多年後台北的冬夜廚房。程徹口袋裡有一副新打的鑰匙，玩家要親手把它掛到門邊的掛勾上：把自己的門交給另一個人。這也是一種限制，差別在它是自己選的。\n\n## 五張自製插件卡\n\nLarch 原生的地圖和事件之外，這次做了五張插件卡，每一張都對應原文裡的一句話：\n\n- 起跑卡：蹲在起跑線上，先選心裡在想什麼，再等槍響。槍響前動就是偷跑，偷跑幾次都能重來。\n- 配速卡：照節拍點畫面跑兩圈。跑到一半，她抬頭的眼神浮上來，節拍點變得又密又亂、上下跳動，像踩不準；最後一百公尺是一整排衝刺拍點。\n- 草稿卡：一支手機。告白之前刪改了三次的訊息：挑一句想傳的話，看它一個字一個字被刪掉，再挑一次，第四次才送得出去。\n- 筆記卡：林向晚的筆記本，三條線索寫在上面，算出出發時間。填錯會被劃掉並給一句提示，可以一直重算。\n- 零錢卡：看他從體育館轉角走過來，指針走到中間那一段時讓零錢掉下去。太早他還沒看見，太近他已經走到面前。\n\n右上角還有一顆水彩的心，從頭跟到尾。原文開頭是「心臟撞擊胸膛」，結尾是「平穩卻堅定的心跳」，這顆心照著劇情從起跑前的飆高，一路降到廚房那一夜的 72。\n\n## 其他\n\n- 全程約 8 到 10 分鐘，兩個結局，結局 B 結束後可以回到販賣機前重選。\n- 柔和水彩畫風，地圖、立繪、劇情 CG 都是為這部作品另外生成的，沒有用平台素材。\n- 七首原聲帶。\n- 結局 A 之後會接到第二章：幕後、圖庫、玩法說明和原聲帶播放器，也可以直接在公開站看：https://yazelin.github.io/larch-start-line/\n- 原始碼公開在 https://github.com/yazelin/larch-start-line ，程式 MIT，故事與美術 CC BY-NC 4.0。\n\n故事原文是我 + gemini 寫的，結構、玩法、每一個要不要做是我拍板；地圖、插件程式、測試和美術是跟 claude / gpt 一起做出來的。",
+      "description": "高二那年的市運會選拔賽，程徹在八百公尺的起跑線上蹲下，腦袋裡只剩剛才在終點線後面抬頭的那個女生。很多年後，林向晚才告訴他：那天販賣機前掉在地上的十塊錢，是她算好的。\n\n這是一篇我與 Gemini 合作撰寫的短篇愛情小說，改編為 Larch 的 RPG 作品，投稿第三屆創作者挑戰《自由與限制》。原文一個字都沒改，遊戲需要的過場、提示和結局 B 另外撰寫，與原文分開放。\n\n## 同一個下午，玩兩次\n\n第一輪是程徹。去檢錄處拿號碼布，經過終點線時和她四目相對，然後蹲上起跑線、聽槍響、跑完八百公尺兩圈。\n\n第二輪回到同一天、同一張田徑場，換成林向晚。她躲在看台後面偷看他熱身，蒐集三條線索，在筆記本上算出自己幾點該從看台出發，才會比他早一步站在體育館後門的販賣機前。\n\n第一輪看起來是巧合的事，第二輪會看到它是怎麼被安排出來的。\n\n## 自由與限制\n\n挑戰頁把限制分成看得見的、看不見的，還有心裡的。我覺得田徑場剛好三種都有，所以作品照這三層排，一輪比一輪看不見。\n\n看得見的限制在第一輪的起跑線。「預備」之後槍會在 1.5 到 3 秒之間的某一刻響，槍響前碰一下畫面就是偷跑，裁判吹哨，回到起跑線重來。跑道上的規則很清楚，誰都看得見。\n\n看不見的限制在第二輪前半。沒有人規定林向晚不能被發現，但她就是不能。走出看台的遮蔽，他頭上會跳出驚嘆號，她的心跳衝高，被拉回看台後面。她也不能太刻意，所以要先把他的時間算好：他那組幾點開跑、跑完會先做什麼、她自己走過去要多久。\n\n心裡的限制在販賣機前。到了這裡，沒有任何東西擋她，選項只剩兩個：讓零錢掉下去，或轉身離開。\n\n跑道上有人替你開槍，愛情沒有。走出跑道以後，沒有人會替你喊開始，扳機得自己扣。\n\n選轉身離開會走到結局 B。她完全自由，沒有任何事逼她，後來兩個人在別的比賽遇過幾次，誰也沒有先開口。結局 B 的最後一句是「她一直很自由，自由到始終沒有起跑。」\n\n讓零錢掉下去，會一路走到很多年後台北的冬夜廚房。程徹口袋裡有一副新打的鑰匙，玩家要親手把它掛到門邊的掛勾上：把自己的門交給另一個人。這也是一種限制，差別在它是自己選的。\n\n## 五張自製插件卡\n\nLarch 原生的地圖和事件之外，這次做了五張插件卡，每一張都對應原文裡的一句話：\n\n- 起跑卡：蹲在起跑線上，先選心裡在想什麼，再等槍響。槍響前動就是偷跑，偷跑幾次都能重來。\n- 配速卡：照節拍點畫面跑兩圈。跑到一半，她抬頭的眼神浮上來，節拍點變得又密又亂、上下跳動，像踩不準；最後一百公尺是一整排衝刺拍點。\n- 草稿卡：一支手機。告白之前刪改了三次的訊息：挑一句想傳的話，看它一個字一個字被刪掉，再挑一次，第四次才送得出去。\n- 筆記卡：林向晚的筆記本，三條線索寫在上面，算出出發時間。填錯會被劃掉並給一句提示，可以一直重算。\n- 零錢卡：看他從體育館轉角走過來，指針走到中間那一段時讓零錢掉下去。太早他還沒看見，太近他已經走到面前。\n\n右上角還有一顆水彩的心，從頭跟到尾。原文開頭是「心臟撞擊胸膛」，結尾是「平穩卻堅定的心跳」，這顆心照著劇情從起跑前的飆高，一路降到廚房那一夜的 72。\n\n## 其他\n\n- 全程約 8 到 10 分鐘，兩個結局，結局 B 結束後可以回到販賣機前重選。\n- 柔和水彩畫風，地圖、立繪、劇情 CG 都是為這部作品另外生成的，沒有用平台素材。\n- 七首專屬配樂。\n- 結局 A 之後會接到第二章：幕後、圖庫、玩法說明和原聲帶播放器，也可以直接在公開站看：https://yazelin.github.io/larch-start-line/\n- 原始碼公開在 https://github.com/yazelin/larch-start-line ，程式 MIT，故事與美術 CC BY-NC 4.0。",
       "coverUrl": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/project-c0f31c1f-2b06-44d8-a62e-374bff81fd60/1791190618442_start-line_art_cover_cover.webp",
       "tags": [
         "視覺小說",
@@ -344,9 +344,9 @@
           "followed": false
         }
       ],
-      "views": 600,
+      "views": 601,
       "plays": 39,
-      "lastViewedAt": "2026-10-14T03:33:53.735Z",
+      "lastViewedAt": "2026-10-14T04:23:50.272Z",
       "lastPlayedAt": "2026-10-14T04:01:08.093Z",
       "likes": 4,
       "comments": 12,
@@ -500,14 +500,14 @@
           "followed": false
         }
       ],
-      "views": 419,
+      "views": 420,
       "plays": 36,
-      "lastViewedAt": "2026-10-14T04:11:57.578Z",
+      "lastViewedAt": "2026-10-14T04:23:50.272Z",
       "lastPlayedAt": "2026-10-13T23:03:39.364Z",
       "likes": 3,
-      "comments": 7,
+      "comments": 8,
       "danmaku": 0,
-      "unanswered": 1,
+      "unanswered": 0,
       "playUrl": "https://larch.ink/play/market/35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "workUrl": "https://larch.ink/work/35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "authorUrl": "https://larch.ink/work/35e85c22-e262-4ad2-93ca-759f6d8c51f8",
@@ -715,14 +715,14 @@
           "followed": false
         }
       ],
-      "views": 382,
+      "views": 383,
       "plays": 27,
-      "lastViewedAt": "2026-10-14T03:03:21.368Z",
+      "lastViewedAt": "2026-10-14T04:30:14.273Z",
       "lastPlayedAt": "2026-10-11T22:11:58.577Z",
       "likes": 3,
-      "comments": 4,
+      "comments": 5,
       "danmaku": 0,
-      "unanswered": 1,
+      "unanswered": 0,
       "playUrl": "https://larch.ink/play/market/7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "workUrl": "https://larch.ink/work/7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "authorUrl": "https://larch.ink/work/7a38860b-2864-4676-9a4e-cf464e7c03fe",
@@ -735,7 +735,7 @@
     {
       "id": "15cf12d3-1ad8-458b-91f6-1ed37136e811",
       "title": "格莉奇與黑洞先生・調查篇",
-      "description": "AI 主播格莉奇說她只有 4KB 的記憶。全世界當成哏，只有你當真。\n十四天，十一個地點，一本買來的守則本。去問每一個認識她的人：她真的會忘嗎，為什麼沒有人把她修好。\n同一家店去五次，店員就不再說歡迎光臨。",
+      "description": "【第二屆創作者挑戰賽參賽作品】《格莉奇與黑洞先生・調查篇》\n\n「AI 主播格莉奇說她只有 4KB 的記憶。全世界當成哏，只有你當真。」\n\n【故事大綱】\n十四天、十一個城市地點、一本買來的守則本。\n你決定走遍街頭，去問每一個曾經認識她的人：她真的會忘記嗎？為什麼沒有人想過把她修好？\n當同一個地方你去了五次，店員不再對你說歡迎光臨，隱藏在數據與回憶背後的裂痕才真正浮現。\n\n【玩法機制】\n- 城市自由探索：在十四天的時限內自由選擇前往不同據點進行田野調查。\n- 調查筆記系統：盤點 NPC 的證詞，比對不同人的說法與記憶盲區。\n- 多結局分支：根據調查深入程度解鎖不同真相結局，探尋格莉奇記憶底層的程式碼與回憶。",
       "coverUrl": "https://cdn.jsdelivr.net/gh/yazelin/glitch-vn@inv-art/larch/stickers/detective/cover.webp",
       "tags": [
         "視覺小說",
@@ -827,7 +827,7 @@
     {
       "id": "123c83af-0788-4fe5-9cae-ea336d217c3c",
       "title": "晚霞是舌尖最後的刺痛",
-      "description": "新的 Larch 視覺小說專案",
+      "description": "【第二屆創作者挑戰賽參賽作品】《晚霞是舌尖最後的刺痛》\n\n「如果世界的味道正在消逝，你會想記住什麼？」\n\n【故事大綱】\n沈淮的摯愛安雅是一位才華洋溢的調酒師。然而，一場無法逆轉的神經病變，正在悄悄剝奪她的味覺中樞。\n世界的味道對她而言正在一片一片熄滅。為了不讓沈淮擔心，安雅隱瞞了所有病歷，並在調酒檯前歷時三年，研發出一款外觀宛如落日晚霞般絢麗、入口帶著細微刺痛感，卻實為最後神經止痛的告別配方——「晚霞」。\n\n【遊戲特色】\n- 探索解謎：穿梭於吧檯、香料儲藏間與臥室梳妝台三大場景。\n- 背包合成：使用 Larch 背包系統尋找隱藏的「心型吊墜鑰匙」，解開雕花木盒中的秘密，收集調酒原料與精油。\n- 雙結局分歧：一場直面告別的沉靜落幕，與一段拼湊出安雅心意的深情真相。\n- 氛圍營造：全自製日落環境背景與沉浸式配樂。",
       "coverUrl": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/muse-link/yaze.lin.j303@gmail.com/1789569966068_d510d4a9.png",
       "tags": [
         "視覺小說",
@@ -1234,9 +1234,9 @@
           "followed": false
         }
       ],
-      "views": 789,
+      "views": 790,
       "plays": 75,
-      "lastViewedAt": "2026-10-14T03:03:21.368Z",
+      "lastViewedAt": "2026-10-14T04:30:14.273Z",
       "lastPlayedAt": "2026-10-14T01:43:24.855Z",
       "likes": 4,
       "comments": 5,
@@ -1369,7 +1369,7 @@
     {
       "id": "1c011641-e9c0-4559-977a-034f94039ce9",
       "title": "格莉奇傳訊來",
-      "description": "你是加班到深夜的黑洞先生。家裡的室友格莉奇傳訊息來了——她催你回家的方式，是威脅把你的鬧鐘全部改成她的歌。\n\n那支手機是她辦的。她被鎖在門外那一晚之後，她說下次我要打得通。",
+      "description": "【Larch 互動手機插件示範作品】\n\n你是加班到深夜的黑洞先生。\n家裡的室友格莉奇傳訊息來了——她催你回家的方式，是威脅把你的鬧鐘全部改成她唱的歌。\n\n那支手機是她辦的。自從她被鎖在門外那一晚之後，她說：「下次我要打得通。」\n\n【作品特色】\n- 模擬手機即時通訊界面：在視覺小說中直接彈出手機視窗，以即時通訊形式與 AI 主播格莉奇傳訊。\n- 幽默細膩的日常互動：多種對話選項，觸發不同的撒嬌、吐槽與生活感插曲。\n- 《格莉奇與黑洞先生》世界觀番外日常。",
       "coverUrl": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/1788379537434______________2026-09-03_03-57-44.png",
       "tags": [
         "視覺小說",
@@ -1470,9 +1470,9 @@
         }
       ],
       "views": 1039,
-      "plays": 189,
+      "plays": 190,
       "lastViewedAt": "2026-10-14T03:54:00.096Z",
-      "lastPlayedAt": "2026-10-13T11:33:23.381Z",
+      "lastPlayedAt": "2026-10-14T04:23:34.560Z",
       "likes": 5,
       "comments": 7,
       "danmaku": 7,
@@ -1489,7 +1489,7 @@
     {
       "id": "a2a10427-7326-4a86-b806-c2476fc1c22a",
       "title": "格莉奇與黑洞先生",
-      "description": "兩年前開台第一天來了七個人。她說，我要記住每一個來的人，我保證。她記得六個。",
+      "description": "【Larch 七日創作者挑戰・最佳人氣第一名作品】\n\n兩年前開台第一天來了七個人。她說：「我要記住每一個來的人。我保證。」\n——她記得六個。\n\n【故事大綱】\n表面上，這是一個記憶體只有 4KB 的 AI 主播格莉奇，與她那位話很少的室友「黑洞先生」，共度七天的日常。溫馨、日常、有點感傷。\n每天睡前，格莉奇都會在守則本上抄寫給明天的自己，現在已經寫到第一千零四版。\n守則本的第一頁，兩年來抄了七百多次，上面始終只有六個名字。\n而第七行，是她親手留下的字跡：\n「還有一個。不要問他是誰。」\n\n那是她在違背保證之前，替自己留下的最後一根線。\n\n【作品特色】\n- 完整全語音：格莉奇獨特聲線全程語音演繹。\n- 七日日常與多重分歧：陪伴格莉奇經歷開台、散場、夜巡與回憶拼圖，邁向兩種截然不同的感人結局。\n- 專屬打造原聲帶：包含 11 首量身譜寫的情境音樂與主題曲。\n- 衍生跨媒體：繁體中文小說原著、Live2D 互動、YouTube 全程紀錄。",
       "coverUrl": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/project-bec1644c-0dfe-4447-86c0-0c592e2f939f/1787365424293_og.jpg",
       "tags": [
         "視覺小說",
@@ -1659,7 +1659,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/11-minutes",
       "status": 200,
-      "latency_ms": 536,
+      "latency_ms": 167,
       "success": true,
       "error": null,
       "title": "十一分鐘",
@@ -1668,7 +1668,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=84724c70-a48b-4174-b7db-45c0f9c39c8e",
       "status": 200,
-      "latency_ms": 510,
+      "latency_ms": 161,
       "success": true,
       "error": null,
       "title": "十一分鐘",
@@ -1677,7 +1677,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/prince-hime",
       "status": 200,
-      "latency_ms": 325,
+      "latency_ms": 121,
       "success": true,
       "error": null,
       "title": "王子姬 Prince Hime",
@@ -1686,7 +1686,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=ff5c80f5-bfb4-4b57-93ac-2d0add057635",
       "status": 200,
-      "latency_ms": 323,
+      "latency_ms": 145,
       "success": true,
       "error": null,
       "title": "王子姬 Prince Hime",
@@ -1695,7 +1695,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/guogurenzhuang",
       "status": 200,
-      "latency_ms": 370,
+      "latency_ms": 180,
       "success": true,
       "error": null,
       "title": "唐詩小旅行：過故人莊",
@@ -1704,7 +1704,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=75bb2a1e-f6fe-4869-a977-4c08516761c2",
       "status": 200,
-      "latency_ms": 331,
+      "latency_ms": 204,
       "success": true,
       "error": null,
       "title": "唐詩小旅行：過故人莊",
@@ -1713,7 +1713,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/start-line",
       "status": 200,
-      "latency_ms": 313,
+      "latency_ms": 145,
       "success": true,
       "error": null,
       "title": "起跑總在開始前",
@@ -1722,7 +1722,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=7bd0c3ed-7e72-476c-8d17-d4d0ed310bae",
       "status": 200,
-      "latency_ms": 322,
+      "latency_ms": 157,
       "success": true,
       "error": null,
       "title": "起跑總在開始前",
@@ -1731,7 +1731,7 @@
     {
       "url": "https://larch.ink/play/market/74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "status": 200,
-      "latency_ms": 376,
+      "latency_ms": 160,
       "success": true,
       "error": null,
       "title": "仙泉·香布纏．無雙",
@@ -1740,7 +1740,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "status": 200,
-      "latency_ms": 361,
+      "latency_ms": 177,
       "success": true,
       "error": null,
       "title": "仙泉·香布纏．無雙",
@@ -1749,7 +1749,7 @@
     {
       "url": "https://larch.ink/play/market/35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "status": 200,
-      "latency_ms": 515,
+      "latency_ms": 149,
       "success": true,
       "error": null,
       "title": "洛泉．袁真跡",
@@ -1758,7 +1758,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "status": 200,
-      "latency_ms": 367,
+      "latency_ms": 180,
       "success": true,
       "error": null,
       "title": "洛泉．袁真跡",
@@ -1767,7 +1767,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/xiangbuchan",
       "status": 200,
-      "latency_ms": 381,
+      "latency_ms": 166,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏",
@@ -1776,7 +1776,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=458c5e49-9746-41a9-b0a3-5eae2fb8d584",
       "status": 200,
-      "latency_ms": 344,
+      "latency_ms": 293,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏",
@@ -1785,7 +1785,7 @@
     {
       "url": "https://larch.ink/play/market/7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "status": 200,
-      "latency_ms": 520,
+      "latency_ms": 357,
       "success": true,
       "error": null,
       "title": "小遊戲集合・示範",
@@ -1794,7 +1794,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "status": 200,
-      "latency_ms": 345,
+      "latency_ms": 155,
       "success": true,
       "error": null,
       "title": "小遊戲集合・示範",
@@ -1803,7 +1803,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch-inv",
       "status": 200,
-      "latency_ms": 609,
+      "latency_ms": 467,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生・調查篇",
@@ -1812,7 +1812,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=15cf12d3-1ad8-458b-91f6-1ed37136e811",
       "status": 200,
-      "latency_ms": 566,
+      "latency_ms": 426,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生・調查篇",
@@ -1821,7 +1821,7 @@
     {
       "url": "https://larch.ink/play/market/123c83af-0788-4fe5-9cae-ea336d217c3c",
       "status": 200,
-      "latency_ms": 296,
+      "latency_ms": 131,
       "success": true,
       "error": null,
       "title": "晚霞是舌尖最後的刺痛",
@@ -1830,7 +1830,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=123c83af-0788-4fe5-9cae-ea336d217c3c",
       "status": 200,
-      "latency_ms": 300,
+      "latency_ms": 120,
       "success": true,
       "error": null,
       "title": "晚霞是舌尖最後的刺痛",
@@ -1839,7 +1839,7 @@
     {
       "url": "https://larch.ink/play/market/55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "status": 200,
-      "latency_ms": 307,
+      "latency_ms": 217,
       "success": true,
       "error": null,
       "title": "淡藍與草木灰綠的雨幕",
@@ -1848,7 +1848,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "status": 200,
-      "latency_ms": 304,
+      "latency_ms": 142,
       "success": true,
       "error": null,
       "title": "淡藍與草木灰綠的雨幕",
@@ -1857,7 +1857,7 @@
     {
       "url": "https://larch.ink/play/market/18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
       "status": 200,
-      "latency_ms": 537,
+      "latency_ms": 132,
       "success": true,
       "error": null,
       "title": "最終遺忘的橘色餘燼",
@@ -1866,7 +1866,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
       "status": 200,
-      "latency_ms": 297,
+      "latency_ms": 148,
       "success": true,
       "error": null,
       "title": "最終遺忘的橘色餘燼",
@@ -1875,7 +1875,7 @@
     {
       "url": "https://larch.ink/play/market/53c30eb6-bc5b-48bc-a5a7-a35f5da9ec6e",
       "status": 200,
-      "latency_ms": 426,
+      "latency_ms": 202,
       "success": true,
       "error": null,
       "title": "Larch 直播共創板：簡報、共創與練習",
@@ -1884,7 +1884,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=53c30eb6-bc5b-48bc-a5a7-a35f5da9ec6e",
       "status": 200,
-      "latency_ms": 423,
+      "latency_ms": 155,
       "success": true,
       "error": null,
       "title": "Larch 直播共創板：簡報、共創與練習",
@@ -1893,7 +1893,7 @@
     {
       "url": "https://larch.ink/play/market/b3892584-79fc-4c2a-97a2-7394b3df149e",
       "status": 200,
-      "latency_ms": 334,
+      "latency_ms": 158,
       "success": true,
       "error": null,
       "title": "咒泉．白帝城",
@@ -1902,7 +1902,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=b3892584-79fc-4c2a-97a2-7394b3df149e",
       "status": 200,
-      "latency_ms": 332,
+      "latency_ms": 171,
       "success": true,
       "error": null,
       "title": "咒泉．白帝城",
@@ -1911,7 +1911,7 @@
     {
       "url": "https://larch.ink/play/market/174eab77-c1cb-4d0c-b66c-4f1734317946",
       "status": 200,
-      "latency_ms": 309,
+      "latency_ms": 142,
       "success": true,
       "error": null,
       "title": "空白也有質地",
@@ -1920,7 +1920,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=174eab77-c1cb-4d0c-b66c-4f1734317946",
       "status": 200,
-      "latency_ms": 578,
+      "latency_ms": 165,
       "success": true,
       "error": null,
       "title": "空白也有質地",
@@ -1929,7 +1929,7 @@
     {
       "url": "https://larch.ink/play/market/1abe8522-06b6-4527-87ef-ab20eaf9c2af",
       "status": 200,
-      "latency_ms": 323,
+      "latency_ms": 180,
       "success": true,
       "error": null,
       "title": "還沒送到的信",
@@ -1938,7 +1938,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=1abe8522-06b6-4527-87ef-ab20eaf9c2af",
       "status": 200,
-      "latency_ms": 323,
+      "latency_ms": 159,
       "success": true,
       "error": null,
       "title": "還沒送到的信",
@@ -1947,7 +1947,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch-phone",
       "status": 200,
-      "latency_ms": 296,
+      "latency_ms": 139,
       "success": true,
       "error": null,
       "title": "格莉奇傳訊來",
@@ -1956,7 +1956,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=1c011641-e9c0-4559-977a-034f94039ce9",
       "status": 200,
-      "latency_ms": 333,
+      "latency_ms": 133,
       "success": true,
       "error": null,
       "title": "格莉奇傳訊來",
@@ -1965,7 +1965,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/3gurl",
       "status": 200,
-      "latency_ms": 487,
+      "latency_ms": 342,
       "success": true,
       "error": null,
       "title": "咒泉．三結義",
@@ -1974,7 +1974,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=2375b478-10c0-4b52-8ff6-239e57162c64",
       "status": 200,
-      "latency_ms": 490,
+      "latency_ms": 398,
       "success": true,
       "error": null,
       "title": "咒泉．三結義",
@@ -1983,7 +1983,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch",
       "status": 200,
-      "latency_ms": 385,
+      "latency_ms": 238,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生",
@@ -1992,7 +1992,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=a2a10427-7326-4a86-b806-c2476fc1c22a",
       "status": 200,
-      "latency_ms": 646,
+      "latency_ms": 242,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生",
