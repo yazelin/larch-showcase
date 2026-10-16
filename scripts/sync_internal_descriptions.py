@@ -12,7 +12,9 @@ import urllib.error
 
 MCP_URL = "https://larch.ink/mcp"
 API_BASE = "https://larch.ink"
-API_KEY = os.environ.get("LARCH_API_KEY", "").strip() or "larch_81b42a96_YNnczrPDBtjY_NIYtE9_p90P7xz7c6Du"
+API_KEY = os.environ.get("LARCH_API_KEY", "").strip()  # 金鑰只從環境變數讀,不寫進 repo(公開)
+if not API_KEY:
+    sys.exit("LARCH_API_KEY 沒設定")
 
 DESCRIPTIONS = {
     # 1. 格莉奇與黑洞先生
