@@ -12,6 +12,7 @@ on:
       - 'scripts/**'
       - '.github/workflows/**'
       - 'index.html'
+      - 'dashboard.html'
       - 'app.js'
       - 'style.css'
 

@@ -1,6 +1,8 @@
 # Larch Showcase & Analytics Dashboard
 
-林亞澤（@yaze）的 Larch 視覺小說與互動敘事作品專屬展示頁面與數據看板。
+林亞澤（@yaze）的 Larch 作品數據同步與看板。
+
+**公開展示頁在 blog 的 [/larch/](https://yazelin.github.io/larch/)**：版面跟 blog 同一套，數字與簡介每次開頁從這個 repo 的 `data/works.json` 讀（同網域）。所以 `data/works.json` 的欄位名稱（`summary.total_*`、`works[].id/title/description/coverUrl/playUrl/tags/publishedAt/marketRank/views/plays/likes/comments`）改了，blog 那頁會跟著壞。這裡的 `index.html` 只做轉址，原本的看板在 `dashboard.html`。
 
 透過 GitHub Actions 每天定時自動巡檢作品連結、呼叫 Larch 官方 API 同步最新數據（總瀏覽數、遊玩次數、獲得愛心、讀者留言、章節節點數），並自動發佈至 GitHub Pages。
 
@@ -38,7 +40,8 @@ larch-showcase/
 ├── data/
 │   ├── works.json              # 當前所有作品最新數據與當日巡檢結果
 │   └── history.json            # 每日數據快照與歷史變化追蹤
-├── index.html                  # GitHub Pages 專屬展示頁面
+├── index.html                  # 轉址到 yazelin.github.io/larch/(公開展示頁搬進 blog)
+├── dashboard.html              # 作者自己看的數據看板(原本的展示頁)
 ├── style.css                   # 展示頁面客製化樣式與特效
 ├── app.js                      # 前端展示邏輯、過濾、排序與彈窗控制
 ├── .gitignore
