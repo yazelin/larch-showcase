@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-16T00:55:53.744181+00:00",
-  "updated_at_cst": "2026-10-16 08:55:53",
+  "updated_at": "2026-10-16T01:26:10.771366+00:00",
+  "updated_at_cst": "2026-10-16 09:26:10",
   "author": "yaze",
   "market_section_url": "https://larch.ink/market?section=games",
   "summary": {
     "total_works": 19,
-    "total_views": 11225,
-    "total_plays": 1348,
+    "total_views": 11230,
+    "total_plays": 1349,
     "total_likes": 69,
     "total_comments": 194,
     "total_unanswered": 0,
@@ -19,8 +19,8 @@
     "market_share_percent": 20.2
   },
   "delta": {
-    "views": 403,
-    "plays": 7,
+    "views": 408,
+    "plays": 8,
     "likes": 0,
     "comments": 0
   },
@@ -145,9 +145,9 @@
           "followed": false
         }
       ],
-      "views": 404,
+      "views": 406,
       "plays": 25,
-      "lastViewedAt": "2026-10-16T00:46:07.182Z",
+      "lastViewedAt": "2026-10-16T01:02:50.533Z",
       "lastPlayedAt": "2026-10-15T16:12:28.609Z",
       "likes": 3,
       "comments": 5,
@@ -500,9 +500,9 @@
           "followed": false
         }
       ],
-      "views": 569,
+      "views": 571,
       "plays": 39,
-      "lastViewedAt": "2026-10-16T00:45:43.127Z",
+      "lastViewedAt": "2026-10-16T01:21:53.596Z",
       "lastPlayedAt": "2026-10-14T15:05:26.733Z",
       "likes": 3,
       "comments": 8,
@@ -807,10 +807,10 @@
           "followed": false
         }
       ],
-      "views": 1168,
-      "plays": 88,
-      "lastViewedAt": "2026-10-15T23:33:10.061Z",
-      "lastPlayedAt": "2026-10-11T16:44:22.561Z",
+      "views": 1169,
+      "plays": 89,
+      "lastViewedAt": "2026-10-16T01:08:09.739Z",
+      "lastPlayedAt": "2026-10-16T01:08:09.739Z",
       "likes": 6,
       "comments": 17,
       "danmaku": 0,
@@ -1659,7 +1659,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/11-minutes",
       "status": 200,
-      "latency_ms": 313,
+      "latency_ms": 532,
       "success": true,
       "error": null,
       "title": "十一分鐘",
@@ -1668,7 +1668,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=84724c70-a48b-4174-b7db-45c0f9c39c8e",
       "status": 200,
-      "latency_ms": 489,
+      "latency_ms": 366,
       "success": true,
       "error": null,
       "title": "十一分鐘",
@@ -1677,7 +1677,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/prince-hime",
       "status": 200,
-      "latency_ms": 597,
+      "latency_ms": 699,
       "success": true,
       "error": null,
       "title": "王子姬 Prince Hime",
@@ -1686,7 +1686,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=ff5c80f5-bfb4-4b57-93ac-2d0add057635",
       "status": 200,
-      "latency_ms": 682,
+      "latency_ms": 338,
       "success": true,
       "error": null,
       "title": "王子姬 Prince Hime",
@@ -1695,7 +1695,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/guogurenzhuang",
       "status": 200,
-      "latency_ms": 521,
+      "latency_ms": 456,
       "success": true,
       "error": null,
       "title": "唐詩小旅行：過故人莊",
@@ -1704,7 +1704,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=75bb2a1e-f6fe-4869-a977-4c08516761c2",
       "status": 200,
-      "latency_ms": 336,
+      "latency_ms": 364,
       "success": true,
       "error": null,
       "title": "唐詩小旅行：過故人莊",
@@ -1713,7 +1713,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/start-line",
       "status": 200,
-      "latency_ms": 349,
+      "latency_ms": 415,
       "success": true,
       "error": null,
       "title": "起跑總在開始前",
@@ -1722,7 +1722,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=7bd0c3ed-7e72-476c-8d17-d4d0ed310bae",
       "status": 200,
-      "latency_ms": 323,
+      "latency_ms": 394,
       "success": true,
       "error": null,
       "title": "起跑總在開始前",
@@ -1731,7 +1731,7 @@
     {
       "url": "https://larch.ink/play/market/74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "status": 200,
-      "latency_ms": 332,
+      "latency_ms": 379,
       "success": true,
       "error": null,
       "title": "仙泉·香布纏．無雙",
@@ -1740,7 +1740,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "status": 200,
-      "latency_ms": 536,
+      "latency_ms": 351,
       "success": true,
       "error": null,
       "title": "仙泉·香布纏．無雙",
@@ -1749,7 +1749,7 @@
     {
       "url": "https://larch.ink/play/market/35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "status": 200,
-      "latency_ms": 648,
+      "latency_ms": 412,
       "success": true,
       "error": null,
       "title": "洛泉．袁真跡",
@@ -1758,7 +1758,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "status": 200,
-      "latency_ms": 644,
+      "latency_ms": 582,
       "success": true,
       "error": null,
       "title": "洛泉．袁真跡",
@@ -1767,7 +1767,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/xiangbuchan",
       "status": 200,
-      "latency_ms": 329,
+      "latency_ms": 334,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏",
@@ -1776,7 +1776,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=458c5e49-9746-41a9-b0a3-5eae2fb8d584",
       "status": 200,
-      "latency_ms": 319,
+      "latency_ms": 559,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏",
@@ -1785,7 +1785,7 @@
     {
       "url": "https://larch.ink/play/market/7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "status": 200,
-      "latency_ms": 534,
+      "latency_ms": 346,
       "success": true,
       "error": null,
       "title": "小遊戲集合・示範",
@@ -1794,7 +1794,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "status": 200,
-      "latency_ms": 267,
+      "latency_ms": 317,
       "success": true,
       "error": null,
       "title": "小遊戲集合・示範",
@@ -1803,7 +1803,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch-inv",
       "status": 200,
-      "latency_ms": 543,
+      "latency_ms": 688,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生・調查篇",
@@ -1812,7 +1812,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=15cf12d3-1ad8-458b-91f6-1ed37136e811",
       "status": 200,
-      "latency_ms": 523,
+      "latency_ms": 554,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生・調查篇",
@@ -1821,7 +1821,7 @@
     {
       "url": "https://larch.ink/play/market/123c83af-0788-4fe5-9cae-ea336d217c3c",
       "status": 200,
-      "latency_ms": 651,
+      "latency_ms": 641,
       "success": true,
       "error": null,
       "title": "晚霞是舌尖最後的刺痛",
@@ -1830,7 +1830,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=123c83af-0788-4fe5-9cae-ea336d217c3c",
       "status": 200,
-      "latency_ms": 251,
+      "latency_ms": 333,
       "success": true,
       "error": null,
       "title": "晚霞是舌尖最後的刺痛",
@@ -1839,7 +1839,7 @@
     {
       "url": "https://larch.ink/play/market/55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "status": 200,
-      "latency_ms": 293,
+      "latency_ms": 414,
       "success": true,
       "error": null,
       "title": "淡藍與草木灰綠的雨幕",
@@ -1848,7 +1848,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "status": 200,
-      "latency_ms": 467,
+      "latency_ms": 391,
       "success": true,
       "error": null,
       "title": "淡藍與草木灰綠的雨幕",
@@ -1857,7 +1857,7 @@
     {
       "url": "https://larch.ink/play/market/18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
       "status": 200,
-      "latency_ms": 285,
+      "latency_ms": 326,
       "success": true,
       "error": null,
       "title": "最終遺忘的橘色餘燼",
@@ -1875,7 +1875,7 @@
     {
       "url": "https://larch.ink/play/market/53c30eb6-bc5b-48bc-a5a7-a35f5da9ec6e",
       "status": 200,
-      "latency_ms": 361,
+      "latency_ms": 390,
       "success": true,
       "error": null,
       "title": "Larch 直播共創板：簡報、共創與練習",
@@ -1884,7 +1884,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=53c30eb6-bc5b-48bc-a5a7-a35f5da9ec6e",
       "status": 200,
-      "latency_ms": 361,
+      "latency_ms": 364,
       "success": true,
       "error": null,
       "title": "Larch 直播共創板：簡報、共創與練習",
@@ -1893,7 +1893,7 @@
     {
       "url": "https://larch.ink/play/market/b3892584-79fc-4c2a-97a2-7394b3df149e",
       "status": 200,
-      "latency_ms": 353,
+      "latency_ms": 360,
       "success": true,
       "error": null,
       "title": "咒泉．白帝城",
@@ -1902,7 +1902,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=b3892584-79fc-4c2a-97a2-7394b3df149e",
       "status": 200,
-      "latency_ms": 443,
+      "latency_ms": 354,
       "success": true,
       "error": null,
       "title": "咒泉．白帝城",
@@ -1911,7 +1911,7 @@
     {
       "url": "https://larch.ink/play/market/174eab77-c1cb-4d0c-b66c-4f1734317946",
       "status": 200,
-      "latency_ms": 315,
+      "latency_ms": 349,
       "success": true,
       "error": null,
       "title": "空白也有質地",
@@ -1920,7 +1920,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=174eab77-c1cb-4d0c-b66c-4f1734317946",
       "status": 200,
-      "latency_ms": 267,
+      "latency_ms": 422,
       "success": true,
       "error": null,
       "title": "空白也有質地",
@@ -1929,7 +1929,7 @@
     {
       "url": "https://larch.ink/play/market/1abe8522-06b6-4527-87ef-ab20eaf9c2af",
       "status": 200,
-      "latency_ms": 267,
+      "latency_ms": 358,
       "success": true,
       "error": null,
       "title": "還沒送到的信",
@@ -1938,7 +1938,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=1abe8522-06b6-4527-87ef-ab20eaf9c2af",
       "status": 200,
-      "latency_ms": 265,
+      "latency_ms": 338,
       "success": true,
       "error": null,
       "title": "還沒送到的信",
@@ -1947,7 +1947,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch-phone",
       "status": 200,
-      "latency_ms": 338,
+      "latency_ms": 318,
       "success": true,
       "error": null,
       "title": "格莉奇傳訊來",
@@ -1956,7 +1956,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=1c011641-e9c0-4559-977a-034f94039ce9",
       "status": 200,
-      "latency_ms": 255,
+      "latency_ms": 382,
       "success": true,
       "error": null,
       "title": "格莉奇傳訊來",
@@ -1965,7 +1965,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/3gurl",
       "status": 200,
-      "latency_ms": 459,
+      "latency_ms": 468,
       "success": true,
       "error": null,
       "title": "咒泉．三結義",
@@ -1974,7 +1974,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=2375b478-10c0-4b52-8ff6-239e57162c64",
       "status": 200,
-      "latency_ms": 440,
+      "latency_ms": 470,
       "success": true,
       "error": null,
       "title": "咒泉．三結義",
@@ -1983,7 +1983,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch",
       "status": 200,
-      "latency_ms": 331,
+      "latency_ms": 425,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生",
@@ -1992,7 +1992,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=a2a10427-7326-4a86-b806-c2476fc1c22a",
       "status": 200,
-      "latency_ms": 333,
+      "latency_ms": 408,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生",
