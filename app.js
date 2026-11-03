@@ -145,6 +145,19 @@ function updateKPIs(data) {
   kpiLikesEl.textContent = formatNumber(s.total_likes);
   kpiCommentsEl.textContent = formatNumber(s.total_comments);
   kpiWorksEl.textContent = formatNumber(s.total_works);
+
+  // 市集橫幅：從 works.json 填，不寫死在 HTML
+  const ranked = (data.works || []).filter(w => w.marketRank).sort((a, b) => a.marketRank - b.marketRank);
+  const top = ranked[0];
+  const badgeEl = document.getElementById('market-badge');
+  const textEl = document.getElementById('market-text');
+  if (badgeEl && s.market_total_games) {
+    badgeEl.textContent = (top && top.marketRank === 1 ? '全站 #1 榮譽 · ' : '') + `Top 10 獨佔 ${s.market_top_10_count || 0} 席`;
+  }
+  if (textEl && s.market_total_games) {
+    textEl.textContent = `全站市集共 ${s.market_total_games} 款遊戲，林亞澤共有 ${s.total_works} 部作品上架（佔全站 ${s.market_share_percent}%）` +
+      (top ? `，包含全站點閱／遊玩第 ${top.marketRank} 名《${top.title}》。` : '。');
+  }
   
   if (d.views > 0) {
     kpiDeltaViewsEl.textContent = `+${formatNumber(d.views)} 今日`;
