@@ -4369,5 +4369,205 @@
         "marketRank": 2
       }
     }
+  },
+  {
+    "date": "2026-11-11",
+    "timestamp": "2026-11-11T08:46:27.635091+00:00",
+    "total_views": 25274,
+    "total_plays": 2187,
+    "total_likes": 103,
+    "total_comments": 254,
+    "total_works": 27,
+    "works": {
+      "12cc23dc-9e1b-428b-9067-0c79d3d32071": {
+        "views": 289,
+        "plays": 49,
+        "likes": 3,
+        "comments": 12,
+        "marketRank": 134
+      },
+      "f82f135a-5da0-4d2f-babb-be6478968b7e": {
+        "views": 764,
+        "plays": 38,
+        "likes": 4,
+        "comments": 0,
+        "marketRank": 51
+      },
+      "f1c25453-da7a-4271-bcc8-49be86ca8f73": {
+        "views": 217,
+        "plays": 9,
+        "likes": 1,
+        "comments": 0,
+        "marketRank": 140
+      },
+      "184feb89-43e1-4a25-a237-8aa468e478f4": {
+        "views": 207,
+        "plays": 14,
+        "likes": 3,
+        "comments": 14,
+        "marketRank": 143
+      },
+      "26a2d0f4-cffe-44f3-a321-7801a45f4759": {
+        "views": 826,
+        "plays": 27,
+        "likes": 2,
+        "comments": 0,
+        "marketRank": 44
+      },
+      "1074fd06-fda7-40c2-8c08-f432abf990b5": {
+        "views": 1356,
+        "plays": 84,
+        "likes": 7,
+        "comments": 6,
+        "marketRank": 15
+      },
+      "26ba689c-0fd2-4f6f-808c-67a1a4e2a988": {
+        "views": 906,
+        "plays": 53,
+        "likes": 6,
+        "comments": 9,
+        "marketRank": 37
+      },
+      "99ad6935-1c3f-4d4e-9ad5-ed054ff3baf7": {
+        "views": 975,
+        "plays": 64,
+        "likes": 4,
+        "comments": 6,
+        "marketRank": 31
+      },
+      "84724c70-a48b-4174-b7db-45c0f9c39c8e": {
+        "views": 1308,
+        "plays": 152,
+        "likes": 5,
+        "comments": 20,
+        "marketRank": 17
+      },
+      "ff5c80f5-bfb4-4b57-93ac-2d0add057635": {
+        "views": 1145,
+        "plays": 50,
+        "likes": 3,
+        "comments": 5,
+        "marketRank": 24
+      },
+      "75bb2a1e-f6fe-4869-a977-4c08516761c2": {
+        "views": 420,
+        "plays": 62,
+        "likes": 2,
+        "comments": 15,
+        "marketRank": 114
+      },
+      "7bd0c3ed-7e72-476c-8d17-d4d0ed310bae": {
+        "views": 1228,
+        "plays": 52,
+        "likes": 4,
+        "comments": 19,
+        "marketRank": 19
+      },
+      "74fc7b5a-22ff-42e3-980b-5bdd3701bfff": {
+        "views": 865,
+        "plays": 48,
+        "likes": 4,
+        "comments": 12,
+        "marketRank": 40
+      },
+      "35e85c22-e262-4ad2-93ca-759f6d8c51f8": {
+        "views": 1158,
+        "plays": 82,
+        "likes": 3,
+        "comments": 8,
+        "marketRank": 23
+      },
+      "458c5e49-9746-41a9-b0a3-5eae2fb8d584": {
+        "views": 1319,
+        "plays": 127,
+        "likes": 4,
+        "comments": 31,
+        "marketRank": 16
+      },
+      "7a38860b-2864-4676-9a4e-cf464e7c03fe": {
+        "views": 519,
+        "plays": 37,
+        "likes": 3,
+        "comments": 5,
+        "marketRank": 90
+      },
+      "15cf12d3-1ad8-458b-91f6-1ed37136e811": {
+        "views": 1832,
+        "plays": 131,
+        "likes": 6,
+        "comments": 17,
+        "marketRank": 5
+      },
+      "123c83af-0788-4fe5-9cae-ea336d217c3c": {
+        "views": 1116,
+        "plays": 35,
+        "likes": 2,
+        "comments": 0,
+        "marketRank": 27
+      },
+      "55eee50f-bddc-4dd1-bad2-43eeec1c4168": {
+        "views": 942,
+        "plays": 36,
+        "likes": 4,
+        "comments": 0,
+        "marketRank": 33
+      },
+      "18d113a5-8a47-4ebf-a3ab-9e5b0751766e": {
+        "views": 1041,
+        "plays": 41,
+        "likes": 2,
+        "comments": 8,
+        "marketRank": 29
+      },
+      "53c30eb6-bc5b-48bc-a5a7-a35f5da9ec6e": {
+        "views": 631,
+        "plays": 57,
+        "likes": 1,
+        "comments": 0,
+        "marketRank": 70
+      },
+      "b3892584-79fc-4c2a-97a2-7394b3df149e": {
+        "views": 981,
+        "plays": 83,
+        "likes": 4,
+        "comments": 5,
+        "marketRank": 30
+      },
+      "174eab77-c1cb-4d0c-b66c-4f1734317946": {
+        "views": 399,
+        "plays": 39,
+        "likes": 5,
+        "comments": 5,
+        "marketRank": 119
+      },
+      "1abe8522-06b6-4527-87ef-ab20eaf9c2af": {
+        "views": 728,
+        "plays": 47,
+        "likes": 4,
+        "comments": 3,
+        "marketRank": 56
+      },
+      "1c011641-e9c0-4559-977a-034f94039ce9": {
+        "views": 505,
+        "plays": 70,
+        "likes": 5,
+        "comments": 8,
+        "marketRank": 94
+      },
+      "2375b478-10c0-4b52-8ff6-239e57162c64": {
+        "views": 1397,
+        "plays": 238,
+        "likes": 5,
+        "comments": 7,
+        "marketRank": 13
+      },
+      "a2a10427-7326-4a86-b806-c2476fc1c22a": {
+        "views": 2200,
+        "plays": 462,
+        "likes": 7,
+        "comments": 39,
+        "marketRank": 2
+      }
+    }
   }
 ]
