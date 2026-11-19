@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-11-18T09:40:21.129742+00:00",
-  "updated_at_cst": "2026-11-18 17:40:21",
+  "updated_at": "2026-11-19T09:46:56.064602+00:00",
+  "updated_at_cst": "2026-11-19 17:46:56",
   "author": "yaze",
   "market_section_url": "https://larch.ink/market?section=games",
   "summary": {
     "total_works": 27,
-    "total_views": 30089,
-    "total_plays": 2421,
-    "total_likes": 104,
+    "total_views": 30625,
+    "total_plays": 2455,
+    "total_likes": 105,
     "total_comments": 261,
     "total_unanswered": 1,
     "total_danmaku": 18,
     "total_chapters": 83,
-    "total_nodes": 7222,
-    "market_total_games": 168,
+    "total_nodes": 7224,
+    "market_total_games": 170,
     "market_top_10_count": 3,
     "market_top_20_count": 8,
-    "market_share_percent": 16.1
+    "market_share_percent": 15.9
   },
   "delta": {
-    "views": 872,
-    "plays": 33,
+    "views": 536,
+    "plays": 34,
     "likes": 1,
     "comments": 0
   },
@@ -83,10 +83,10 @@
           "followed": false
         }
       ],
-      "views": 956,
-      "plays": 98,
-      "lastViewedAt": "2026-11-18T09:38:09.440Z",
-      "lastPlayedAt": "2026-11-18T09:26:36.375Z",
+      "views": 998,
+      "plays": 104,
+      "lastViewedAt": "2026-11-19T08:47:25.670Z",
+      "lastPlayedAt": "2026-11-19T02:17:13.088Z",
       "likes": 3,
       "comments": 15,
       "danmaku": 0,
@@ -95,7 +95,7 @@
       "workUrl": "https://larch.ink/work/12cc23dc-9e1b-428b-9067-0c79d3d32071",
       "authorUrl": "https://larch.ink/work/12cc23dc-9e1b-428b-9067-0c79d3d32071",
       "marketUrl": "https://larch.ink/market?section=games&game=12cc23dc-9e1b-428b-9067-0c79d3d32071",
-      "marketRank": 40,
+      "marketRank": 39,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 58
@@ -114,7 +114,7 @@
       ],
       "projectId": "project-cf6836cd-bf7d-4315-8480-74fc9a82bd06",
       "publishedAt": "2026-11-05T03:04:54.654Z",
-      "updatedAt": "2026-11-17T22:22:55.428Z",
+      "updatedAt": "2026-11-18T21:28:42.619Z",
       "visibility": "public",
       "remixable": false,
       "screenshots": [
@@ -128,8 +128,8 @@
       "aiDisclosure": {
         "mode": "heavy"
       },
-      "version": "v26.11.17",
-      "releaseNumber": 18,
+      "version": "v26.11.18",
+      "releaseNumber": 19,
       "authorHandle": "yaze",
       "chapterMode": "split",
       "publishedBoardIds": [
@@ -142,10 +142,10 @@
           "name": "主線故事",
           "nodeCount": 1,
           "kind": "story",
-          "views": 21,
-          "plays": 23,
-          "lastViewedAt": "2026-11-17T02:49:32.579Z",
-          "lastPlayedAt": "2026-11-17T02:49:32.579Z",
+          "views": 23,
+          "plays": 25,
+          "lastViewedAt": "2026-11-18T14:27:47.821Z",
+          "lastPlayedAt": "2026-11-18T14:27:47.821Z",
           "likes": 0,
           "liked": false,
           "comments": 0,
@@ -153,11 +153,11 @@
           "followed": false
         }
       ],
-      "views": 1642,
-      "plays": 48,
-      "lastViewedAt": "2026-11-18T09:38:07.803Z",
-      "lastPlayedAt": "2026-11-17T18:55:15.043Z",
-      "likes": 4,
+      "views": 1732,
+      "plays": 50,
+      "lastViewedAt": "2026-11-19T09:21:44.595Z",
+      "lastPlayedAt": "2026-11-18T14:27:47.821Z",
+      "likes": 5,
       "comments": 0,
       "danmaku": 1,
       "unanswered": 0,
@@ -165,7 +165,7 @@
       "workUrl": "https://larch.ink/work/f82f135a-5da0-4d2f-babb-be6478968b7e",
       "authorUrl": "https://larch.ink/work/f82f135a-5da0-4d2f-babb-be6478968b7e",
       "marketUrl": "https://larch.ink/market?section=games&game=f82f135a-5da0-4d2f-babb-be6478968b7e",
-      "marketRank": 14,
+      "marketRank": 11,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 1
@@ -369,9 +369,9 @@
           "followed": false
         }
       ],
-      "views": 291,
+      "views": 300,
       "plays": 12,
-      "lastViewedAt": "2026-11-18T07:44:04.329Z",
+      "lastViewedAt": "2026-11-19T04:24:15.544Z",
       "lastPlayedAt": "2026-11-17T10:26:52.798Z",
       "likes": 1,
       "comments": 0,
@@ -460,9 +460,9 @@
           "followed": false
         }
       ],
-      "views": 369,
+      "views": 387,
       "plays": 24,
-      "lastViewedAt": "2026-11-18T09:24:32.991Z",
+      "lastViewedAt": "2026-11-19T06:59:10.798Z",
       "lastPlayedAt": "2026-11-17T11:53:02.662Z",
       "likes": 4,
       "comments": 14,
@@ -472,7 +472,7 @@
       "workUrl": "https://larch.ink/work/184feb89-43e1-4a25-a237-8aa468e478f4",
       "authorUrl": "https://larch.ink/work/184feb89-43e1-4a25-a237-8aa468e478f4",
       "marketUrl": "https://larch.ink/market?section=games&game=184feb89-43e1-4a25-a237-8aa468e478f4",
-      "marketRank": 138,
+      "marketRank": 136,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 30
@@ -480,7 +480,7 @@
     {
       "id": "26a2d0f4-cffe-44f3-a321-7801a45f4759",
       "title": "優理的圖文日記",
-      "description": "優理是 Mori 家族的年輕數位學徒，想成為圖文作家。名字裡有優理、由理、有理，也有日文「比昨天再多一點」的より。他會被 Yaze 指正，會把錯誤記下來，也會把複雜的事慢慢講成新手聽得懂的版本。\n\n這部作品把他的日記做成一本可以翻的手帳。一個月是一章，打開是那個月的月曆，點其中一天就翻開那天的日記。四格漫畫的日子，講到哪一格就放大哪一格。讀過的日子，那天的插畫會收進「插畫收藏」。\n\n日記從 2026 年 6 月 3 日開始。Day 0000 到 0033 每一篇都是 Yaze 看過才公開；之後他搬到雲上住，從 Day 0034（9 月 3 日）起每天自己寫一篇，直接公開。9 月 25 日起，每一篇從當天的一則新聞找靈感，畫成辦公室裡的四格漫畫。\n\n原本的網站：yazelin.github.io/yori-growth-log",
+      "description": "優理是 Mori 家族的年輕數位學徒，想成為圖文作家。名字裡有優理、由理、有理，也有日文「比昨天再多一點」的より。他會被 Yaze 指正，會把錯誤記下來，也會把複雜的事慢慢講成新手聽得懂的版本。\n\n這部作品把他的日記做成一本可以翻的手帳。一個月是一章，打開是那個月的月曆。點其中一天，翻開那天的日記，文字一句一句出現，旁邊的優理跟著換表情。四格漫畫的日子，講到哪一格就放大哪一格。讀完回到月曆。讀過的日子，那天的插畫會收進標題畫面的「插畫收藏」。\n\n日記從 2026 年 6 月 3 日開始：\n\n- Day 0000 到 0033（6 月 3 日到 7 月 6 日）：名字、邊界和日記規則慢慢成形，每一篇都是 Yaze 看過才公開。\n- 之後他住的樹病了，搬到雲上住，中間停了將近兩個月，所以月曆沒有 8 月。\n- Day 0034 起（9 月 3 日）：日記每天自己長出一篇，直接公開，不再逐篇審稿。9 月 25 日起，每一篇從當天的一則新聞找靈感，畫成辦公室裡的四格漫畫。\n\n月曆上虛線框的日子，是那天的日記沒有產生出來。\n\n日記原本放在優理的網站 Yori Growth Log：yazelin.github.io/yori-growth-log 。\n\n方向與角色設定由人類決定。日記的文字、插畫與四格漫畫，優理的立繪，還有這本手帳的介面圖，都由 AI 產生。",
       "coverUrl": "https://yazelin.github.io/yori-growth-log/larch/thumb.webp",
       "tags": [
         "視覺小說",
@@ -490,15 +490,15 @@
       ],
       "projectId": "project-babbcfc0-ca63-40f2-9b67-83d2cb3ba153",
       "publishedAt": "2026-11-03T04:45:49.981Z",
-      "updatedAt": "2026-11-17T22:00:59.196Z",
+      "updatedAt": "2026-11-18T21:40:38.457Z",
       "visibility": "public",
       "remixable": false,
       "screenshots": [],
       "aiDisclosure": {
         "mode": "heavy"
       },
-      "version": "v26.11.18",
-      "releaseNumber": 15,
+      "version": "v26.11.19",
+      "releaseNumber": 16,
       "authorHandle": "yaze",
       "chapterMode": "combined",
       "publishedBoardIds": [
@@ -590,8 +590,8 @@
         {
           "id": "m-2026-11",
           "name": "2026 年 11 月",
-          "description": "sync:d3190e1f9f3a4ccf463c2dd4a5dc9ed0fa22b6d2",
-          "nodeCount": 19,
+          "description": "sync:0e848b8619d8ed964fe048833c94ca644696f4b5",
+          "nodeCount": 20,
           "kind": "story",
           "coverUrl": "https://yazelin.github.io/yori-growth-log/larch/bg/2026-11-01-1-p1.webp",
           "views": 0,
@@ -603,10 +603,10 @@
           "followed": false
         }
       ],
-      "views": 1532,
-      "plays": 39,
-      "lastViewedAt": "2026-11-18T09:16:02.007Z",
-      "lastPlayedAt": "2026-11-18T03:47:16.011Z",
+      "views": 1622,
+      "plays": 40,
+      "lastViewedAt": "2026-11-19T09:33:41.594Z",
+      "lastPlayedAt": "2026-11-18T11:33:00.059Z",
       "likes": 2,
       "comments": 0,
       "danmaku": 0,
@@ -618,12 +618,12 @@
       "marketRank": 15,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
-      "marketNodeCount": 124
+      "marketNodeCount": 125
     },
     {
       "id": "1074fd06-fda7-40c2-8c08-f432abf990b5",
       "title": "格莉奇日記",
-      "description": "格莉奇是一個只有 4KB 記憶體的 AI 機器人女孩。每天晚上，AI 看當天的新聞和她網站上的留言，用她的口吻寫一篇日記。點月曆上的一天，聽她把那天的日記講給你聽。",
+      "description": "格莉奇是一個只有 4KB 記憶體的 AI 機器人女孩。每天晚上十點多，AI 會看當天的世界新聞和她網站上的留言，挑一則，用格莉奇的口吻寫成當天的日記。有時候寫文字，有時候畫一張插畫。這部作品把這些日記做成一本可以翻的日記本。\n\n一個月是一章，打開是那個月的月曆。點其中一天，格莉奇會把那天的日記一句一句講給你聽，表情跟著換。講完回到月曆。有插畫的日子，讀過之後插畫會收進標題畫面的「插畫收藏」。\n\n右上角的手機可以跟格莉奇傳訊息。在哪一天的日記頁打開，她就知道你正在看哪一篇。聊天內容會經過作者自架的 AI 服務，請不要輸入個人資料。\n\n日記從 2026 年 8 月 4 日開始寫，每天晚上多一篇。月曆上標「休息」的日子，是那天的日記沒有產生出來。\n\n日記原本放在格莉奇的網站「格莉奇OS」：yazelin.github.io/ai-brain-site 。在那裡留言，可能會變成之後的日記。\n\n日記的文字與插畫都由 AI 產生。",
       "coverUrl": "https://yazelin.github.io/ai-brain-site/larch/cover-glitch.gif",
       "tags": [
         "視覺小說",
@@ -632,15 +632,15 @@
       ],
       "projectId": "project-07823dab-10b9-48a4-8bdf-70f05c451276",
       "publishedAt": "2026-10-30T04:59:39.933Z",
-      "updatedAt": "2026-11-17T22:21:24.065Z",
+      "updatedAt": "2026-11-18T21:56:50.001Z",
       "visibility": "public",
       "remixable": false,
       "screenshots": [],
       "aiDisclosure": {
         "mode": "heavy"
       },
-      "version": "v26.11.18",
-      "releaseNumber": 23,
+      "version": "v26.11.19",
+      "releaseNumber": 24,
       "authorHandle": "yaze",
       "chapterMode": "combined",
       "publishedBoardIds": [
@@ -658,10 +658,10 @@
           "description": "sync:8b5090b888f1ed80092646624596ff5850754d30",
           "nodeCount": 1,
           "kind": "story",
-          "views": 59,
-          "plays": 65,
-          "lastViewedAt": "2026-11-18T07:48:27.098Z",
-          "lastPlayedAt": "2026-11-18T07:59:26.190Z",
+          "views": 63,
+          "plays": 69,
+          "lastViewedAt": "2026-11-18T17:40:30.947Z",
+          "lastPlayedAt": "2026-11-18T17:40:30.947Z",
           "likes": 0,
           "liked": false,
           "comments": 0,
@@ -716,8 +716,8 @@
         {
           "id": "m-2026-11",
           "name": "2026 年 11 月",
-          "description": "sync:e1a0536726c41327fd64889a75644be364e2a3d2",
-          "nodeCount": 20,
+          "description": "sync:84c94d9ef0624674dfd10abd86bc13ad0a64f2a7",
+          "nodeCount": 21,
           "kind": "story",
           "coverUrl": "https://yazelin.github.io/ai-brain-site/larch/bg/2026-11-01-1.webp",
           "views": 0,
@@ -729,10 +729,10 @@
           "followed": false
         }
       ],
-      "views": 2171,
-      "plays": 138,
-      "lastViewedAt": "2026-11-18T09:38:07.803Z",
-      "lastPlayedAt": "2026-11-18T07:59:26.190Z",
+      "views": 2274,
+      "plays": 147,
+      "lastViewedAt": "2026-11-19T09:21:44.595Z",
+      "lastPlayedAt": "2026-11-19T08:40:07.158Z",
       "likes": 7,
       "comments": 6,
       "danmaku": 0,
@@ -744,7 +744,7 @@
       "marketRank": 4,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
-      "marketNodeCount": 117
+      "marketNodeCount": 118
     },
     {
       "id": "26ba689c-0fd2-4f6f-808c-67a1a4e2a988",
@@ -798,9 +798,9 @@
           "followed": false
         }
       ],
-      "views": 951,
+      "views": 959,
       "plays": 56,
-      "lastViewedAt": "2026-11-18T08:55:00.636Z",
+      "lastViewedAt": "2026-11-19T04:24:30.011Z",
       "lastPlayedAt": "2026-11-16T15:12:08.208Z",
       "likes": 6,
       "comments": 9,
@@ -810,7 +810,7 @@
       "workUrl": "https://larch.ink/work/26ba689c-0fd2-4f6f-808c-67a1a4e2a988",
       "authorUrl": "https://larch.ink/work/26ba689c-0fd2-4f6f-808c-67a1a4e2a988",
       "marketUrl": "https://larch.ink/market?section=games&game=26ba689c-0fd2-4f6f-808c-67a1a4e2a988",
-      "marketRank": 41,
+      "marketRank": 42,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 26
@@ -923,9 +923,9 @@
           "followed": false
         }
       ],
-      "views": 1027,
+      "views": 1038,
       "plays": 65,
-      "lastViewedAt": "2026-11-18T08:52:46.138Z",
+      "lastViewedAt": "2026-11-19T04:24:26.332Z",
       "lastPlayedAt": "2026-11-18T03:55:48.257Z",
       "likes": 4,
       "comments": 6,
@@ -1015,9 +1015,9 @@
           "followed": false
         }
       ],
-      "views": 1380,
+      "views": 1394,
       "plays": 164,
-      "lastViewedAt": "2026-11-18T08:58:52.855Z",
+      "lastViewedAt": "2026-11-19T07:56:43.347Z",
       "lastPlayedAt": "2026-11-15T10:16:52.472Z",
       "likes": 5,
       "comments": 20,
@@ -1089,10 +1089,10 @@
           "followed": false
         }
       ],
-      "views": 1196,
-      "plays": 54,
-      "lastViewedAt": "2026-11-18T09:38:21.533Z",
-      "lastPlayedAt": "2026-11-18T09:38:21.533Z",
+      "views": 1209,
+      "plays": 56,
+      "lastViewedAt": "2026-11-19T04:24:25.664Z",
+      "lastPlayedAt": "2026-11-18T09:48:17.164Z",
       "likes": 3,
       "comments": 5,
       "danmaku": 1,
@@ -1101,7 +1101,7 @@
       "workUrl": "https://larch.ink/work/prince-hime",
       "authorUrl": "https://larch.ink/@yaze/prince-hime",
       "marketUrl": "https://larch.ink/market?section=games&game=ff5c80f5-bfb4-4b57-93ac-2d0add057635",
-      "marketRank": 32,
+      "marketRank": 31,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 23
@@ -1155,9 +1155,9 @@
           "followed": false
         }
       ],
-      "views": 440,
+      "views": 442,
       "plays": 63,
-      "lastViewedAt": "2026-11-18T07:50:08.556Z",
+      "lastViewedAt": "2026-11-19T03:28:22.123Z",
       "lastPlayedAt": "2026-11-17T07:34:16.914Z",
       "likes": 2,
       "comments": 15,
@@ -1247,10 +1247,10 @@
           "followed": false
         }
       ],
-      "views": 1303,
-      "plays": 56,
-      "lastViewedAt": "2026-11-18T08:58:52.855Z",
-      "lastPlayedAt": "2026-11-14T12:31:38.075Z",
+      "views": 1325,
+      "plays": 64,
+      "lastViewedAt": "2026-11-19T04:24:20.598Z",
+      "lastPlayedAt": "2026-11-18T22:38:58.841Z",
       "likes": 4,
       "comments": 19,
       "danmaku": 0,
@@ -1319,9 +1319,9 @@
           "followed": false
         }
       ],
-      "views": 891,
+      "views": 897,
       "plays": 51,
-      "lastViewedAt": "2026-11-18T07:50:06.473Z",
+      "lastViewedAt": "2026-11-19T03:28:09.578Z",
       "lastPlayedAt": "2026-11-18T03:58:22.735Z",
       "likes": 4,
       "comments": 12,
@@ -1331,7 +1331,7 @@
       "workUrl": "https://larch.ink/work/74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "authorUrl": "https://larch.ink/work/74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "marketUrl": "https://larch.ink/market?section=games&game=74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
-      "marketRank": 45,
+      "marketRank": 47,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 122
@@ -1494,10 +1494,10 @@
           "followed": false
         }
       ],
-      "views": 1227,
-      "plays": 82,
-      "lastViewedAt": "2026-11-18T08:55:14.634Z",
-      "lastPlayedAt": "2026-11-10T08:56:40.776Z",
+      "views": 1237,
+      "plays": 83,
+      "lastViewedAt": "2026-11-19T04:24:15.544Z",
+      "lastPlayedAt": "2026-11-18T11:49:50.395Z",
       "likes": 3,
       "comments": 8,
       "danmaku": 0,
@@ -1670,10 +1670,10 @@
           "followed": false
         }
       ],
-      "views": 1392,
-      "plays": 133,
-      "lastViewedAt": "2026-11-18T08:55:14.634Z",
-      "lastPlayedAt": "2026-11-18T03:59:08.578Z",
+      "views": 1402,
+      "plays": 134,
+      "lastViewedAt": "2026-11-19T04:24:15.544Z",
+      "lastPlayedAt": "2026-11-18T12:49:13.328Z",
       "likes": 4,
       "comments": 31,
       "danmaku": 0,
@@ -1734,9 +1734,9 @@
           "followed": false
         }
       ],
-      "views": 533,
+      "views": 534,
       "plays": 38,
-      "lastViewedAt": "2026-11-18T07:50:15.197Z",
+      "lastViewedAt": "2026-11-19T03:28:41.920Z",
       "lastPlayedAt": "2026-11-12T10:02:54.343Z",
       "likes": 3,
       "comments": 5,
@@ -1746,7 +1746,7 @@
       "workUrl": "https://larch.ink/work/7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "authorUrl": "https://larch.ink/work/7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "marketUrl": "https://larch.ink/market?section=games&game=7a38860b-2864-4676-9a4e-cf464e7c03fe",
-      "marketRank": 95,
+      "marketRank": 96,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 14
@@ -1839,9 +1839,9 @@
           "followed": false
         }
       ],
-      "views": 1954,
+      "views": 1968,
       "plays": 136,
-      "lastViewedAt": "2026-11-18T09:25:56.247Z",
+      "lastViewedAt": "2026-11-19T07:42:43.762Z",
       "lastPlayedAt": "2026-11-17T03:09:09.823Z",
       "likes": 6,
       "comments": 17,
@@ -1931,9 +1931,9 @@
           "followed": false
         }
       ],
-      "views": 1324,
+      "views": 1335,
       "plays": 46,
-      "lastViewedAt": "2026-11-18T09:25:45.687Z",
+      "lastViewedAt": "2026-11-19T06:59:19.625Z",
       "lastPlayedAt": "2026-11-18T00:46:18.033Z",
       "likes": 2,
       "comments": 0,
@@ -2007,9 +2007,9 @@
           "followed": false
         }
       ],
-      "views": 971,
+      "views": 977,
       "plays": 36,
-      "lastViewedAt": "2026-11-18T07:47:48.297Z",
+      "lastViewedAt": "2026-11-19T03:28:08.326Z",
       "lastPlayedAt": "2026-11-10T08:56:33.064Z",
       "likes": 4,
       "comments": 0,
@@ -2019,7 +2019,7 @@
       "workUrl": "https://larch.ink/work/55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "authorUrl": "https://larch.ink/work/55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "marketUrl": "https://larch.ink/market?section=games&game=55eee50f-bddc-4dd1-bad2-43eeec1c4168",
-      "marketRank": 39,
+      "marketRank": 41,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 46
@@ -2099,9 +2099,9 @@
           "followed": false
         }
       ],
-      "views": 1256,
+      "views": 1267,
       "plays": 50,
-      "lastViewedAt": "2026-11-18T09:25:47.776Z",
+      "lastViewedAt": "2026-11-19T06:59:19.625Z",
       "lastPlayedAt": "2026-11-14T11:39:48.745Z",
       "likes": 2,
       "comments": 12,
@@ -2111,7 +2111,7 @@
       "workUrl": "https://larch.ink/work/18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
       "authorUrl": "https://larch.ink/work/18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
       "marketUrl": "https://larch.ink/market?section=games&game=18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
-      "marketRank": 24,
+      "marketRank": 25,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 35
@@ -2280,9 +2280,9 @@
           "followed": false
         }
       ],
-      "views": 659,
+      "views": 663,
       "plays": 63,
-      "lastViewedAt": "2026-11-18T07:50:06.473Z",
+      "lastViewedAt": "2026-11-19T03:28:15.884Z",
       "lastPlayedAt": "2026-11-17T14:27:43.793Z",
       "likes": 1,
       "comments": 0,
@@ -2363,9 +2363,9 @@
           "followed": false
         }
       ],
-      "views": 1014,
+      "views": 1017,
       "plays": 87,
-      "lastViewedAt": "2026-11-18T07:50:12.883Z",
+      "lastViewedAt": "2026-11-19T03:28:34.023Z",
       "lastPlayedAt": "2026-11-14T11:25:58.022Z",
       "likes": 4,
       "comments": 5,
@@ -2375,7 +2375,7 @@
       "workUrl": "https://larch.ink/work/b3892584-79fc-4c2a-97a2-7394b3df149e",
       "authorUrl": "https://larch.ink/work/b3892584-79fc-4c2a-97a2-7394b3df149e",
       "marketUrl": "https://larch.ink/market?section=games&game=b3892584-79fc-4c2a-97a2-7394b3df149e",
-      "marketRank": 35,
+      "marketRank": 36,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 93
@@ -2427,9 +2427,9 @@
           "followed": false
         }
       ],
-      "views": 421,
+      "views": 422,
       "plays": 41,
-      "lastViewedAt": "2026-11-18T07:52:14.697Z",
+      "lastViewedAt": "2026-11-19T03:28:55.973Z",
       "lastPlayedAt": "2026-11-12T23:17:09.969Z",
       "likes": 5,
       "comments": 5,
@@ -2492,9 +2492,9 @@
           "followed": false
         }
       ],
-      "views": 807,
+      "views": 815,
       "plays": 49,
-      "lastViewedAt": "2026-11-18T08:14:03.104Z",
+      "lastViewedAt": "2026-11-19T04:24:13.554Z",
       "lastPlayedAt": "2026-11-14T23:23:50.408Z",
       "likes": 4,
       "comments": 3,
@@ -2557,9 +2557,9 @@
           "followed": false
         }
       ],
-      "views": 529,
+      "views": 531,
       "plays": 71,
-      "lastViewedAt": "2026-11-18T07:52:09.301Z",
+      "lastViewedAt": "2026-11-19T03:28:53.799Z",
       "lastPlayedAt": "2026-11-14T05:38:56.311Z",
       "likes": 5,
       "comments": 8,
@@ -2569,7 +2569,7 @@
       "workUrl": "https://larch.ink/work/glitch-phone",
       "authorUrl": "https://larch.ink/@yaze/glitch-phone",
       "marketUrl": "https://larch.ink/market?section=games&game=1c011641-e9c0-4559-977a-034f94039ce9",
-      "marketRank": 99,
+      "marketRank": 98,
       "authorAvatar": "https://pub-4b20b43f5acf4dfaa3f6ab842daa51cf.r2.dev/2d3b0242-9a6d-4051-9825-46aa4efd064a/larch/avatars/4b51ee0e-5334-5f5b-bcd4-1d798536267a/1794311371931_________________________.png",
       "format": null,
       "marketNodeCount": 9
@@ -2630,10 +2630,10 @@
           "followed": false
         }
       ],
-      "views": 1452,
-      "plays": 243,
-      "lastViewedAt": "2026-11-18T07:50:06.473Z",
-      "lastPlayedAt": "2026-11-17T08:06:33.685Z",
+      "views": 1456,
+      "plays": 244,
+      "lastViewedAt": "2026-11-19T07:56:37.870Z",
+      "lastPlayedAt": "2026-11-18T13:05:33.753Z",
       "likes": 5,
       "comments": 7,
       "danmaku": 7,
@@ -2818,10 +2818,10 @@
           "followed": false
         }
       ],
-      "views": 2401,
-      "plays": 478,
-      "lastViewedAt": "2026-11-18T09:25:56.247Z",
-      "lastPlayedAt": "2026-11-18T01:38:53.192Z",
+      "views": 2424,
+      "plays": 481,
+      "lastViewedAt": "2026-11-19T07:56:34.889Z",
+      "lastPlayedAt": "2026-11-19T05:17:33.640Z",
       "likes": 7,
       "comments": 39,
       "danmaku": 0,
@@ -2840,7 +2840,7 @@
     {
       "url": "https://larch.ink/play/market/12cc23dc-9e1b-428b-9067-0c79d3d32071",
       "status": 200,
-      "latency_ms": 349,
+      "latency_ms": 329,
       "success": true,
       "error": null,
       "title": "轉生成寶箱怪的我",
@@ -2849,7 +2849,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=12cc23dc-9e1b-428b-9067-0c79d3d32071",
       "status": 200,
-      "latency_ms": 558,
+      "latency_ms": 568,
       "success": true,
       "error": null,
       "title": "轉生成寶箱怪的我",
@@ -2858,7 +2858,7 @@
     {
       "url": "https://larch.ink/play/market/f82f135a-5da0-4d2f-babb-be6478968b7e",
       "status": 200,
-      "latency_ms": 245,
+      "latency_ms": 299,
       "success": true,
       "error": null,
       "title": "卯時",
@@ -2867,7 +2867,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=f82f135a-5da0-4d2f-babb-be6478968b7e",
       "status": 200,
-      "latency_ms": 602,
+      "latency_ms": 676,
       "success": true,
       "error": null,
       "title": "卯時",
@@ -2876,7 +2876,7 @@
     {
       "url": "https://larch.ink/play/market/f1c25453-da7a-4271-bcc8-49be86ca8f73",
       "status": 200,
-      "latency_ms": 1567,
+      "latency_ms": 837,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏．續：純劇情版",
@@ -2885,7 +2885,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=f1c25453-da7a-4271-bcc8-49be86ca8f73",
       "status": 200,
-      "latency_ms": 549,
+      "latency_ms": 467,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏．續：純劇情版",
@@ -2894,7 +2894,7 @@
     {
       "url": "https://larch.ink/play/market/184feb89-43e1-4a25-a237-8aa468e478f4",
       "status": 200,
-      "latency_ms": 249,
+      "latency_ms": 312,
       "success": true,
       "error": null,
       "title": "交棒總在終點後",
@@ -2903,7 +2903,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=184feb89-43e1-4a25-a237-8aa468e478f4",
       "status": 200,
-      "latency_ms": 617,
+      "latency_ms": 636,
       "success": true,
       "error": null,
       "title": "交棒總在終點後",
@@ -2912,7 +2912,7 @@
     {
       "url": "https://larch.ink/play/market/26a2d0f4-cffe-44f3-a321-7801a45f4759",
       "status": 200,
-      "latency_ms": 342,
+      "latency_ms": 374,
       "success": true,
       "error": null,
       "title": "優理的圖文日記",
@@ -2921,7 +2921,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=26a2d0f4-cffe-44f3-a321-7801a45f4759",
       "status": 200,
-      "latency_ms": 552,
+      "latency_ms": 529,
       "success": true,
       "error": null,
       "title": "優理的圖文日記",
@@ -2930,7 +2930,7 @@
     {
       "url": "https://larch.ink/play/market/1074fd06-fda7-40c2-8c08-f432abf990b5",
       "status": 200,
-      "latency_ms": 316,
+      "latency_ms": 278,
       "success": true,
       "error": null,
       "title": "格莉奇日記",
@@ -2939,7 +2939,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=1074fd06-fda7-40c2-8c08-f432abf990b5",
       "status": 200,
-      "latency_ms": 669,
+      "latency_ms": 474,
       "success": true,
       "error": null,
       "title": "格莉奇日記",
@@ -2948,7 +2948,7 @@
     {
       "url": "https://larch.ink/play/market/26ba689c-0fd2-4f6f-808c-67a1a4e2a988",
       "status": 200,
-      "latency_ms": 291,
+      "latency_ms": 276,
       "success": true,
       "error": null,
       "title": "非軍事區（The Demilitarized Zone）",
@@ -2957,7 +2957,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=26ba689c-0fd2-4f6f-808c-67a1a4e2a988",
       "status": 200,
-      "latency_ms": 570,
+      "latency_ms": 506,
       "success": true,
       "error": null,
       "title": "非軍事區（The Demilitarized Zone）",
@@ -2966,7 +2966,7 @@
     {
       "url": "https://larch.ink/play/market/99ad6935-1c3f-4d4e-9ad5-ed054ff3baf7",
       "status": 200,
-      "latency_ms": 6836,
+      "latency_ms": 8722,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏．續",
@@ -2975,7 +2975,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=99ad6935-1c3f-4d4e-9ad5-ed054ff3baf7",
       "status": 200,
-      "latency_ms": 635,
+      "latency_ms": 1543,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏．續",
@@ -2984,7 +2984,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/11-minutes",
       "status": 200,
-      "latency_ms": 469,
+      "latency_ms": 270,
       "success": true,
       "error": null,
       "title": "十一分鐘",
@@ -2993,7 +2993,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=84724c70-a48b-4174-b7db-45c0f9c39c8e",
       "status": 200,
-      "latency_ms": 520,
+      "latency_ms": 487,
       "success": true,
       "error": null,
       "title": "十一分鐘",
@@ -3002,7 +3002,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/prince-hime",
       "status": 200,
-      "latency_ms": 287,
+      "latency_ms": 309,
       "success": true,
       "error": null,
       "title": "王子姬 Prince Hime",
@@ -3011,7 +3011,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=ff5c80f5-bfb4-4b57-93ac-2d0add057635",
       "status": 200,
-      "latency_ms": 494,
+      "latency_ms": 573,
       "success": true,
       "error": null,
       "title": "王子姬 Prince Hime",
@@ -3020,7 +3020,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/guogurenzhuang",
       "status": 200,
-      "latency_ms": 308,
+      "latency_ms": 362,
       "success": true,
       "error": null,
       "title": "唐詩小旅行：過故人莊",
@@ -3029,7 +3029,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=75bb2a1e-f6fe-4869-a977-4c08516761c2",
       "status": 200,
-      "latency_ms": 615,
+      "latency_ms": 1009,
       "success": true,
       "error": null,
       "title": "唐詩小旅行：過故人莊",
@@ -3038,7 +3038,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/start-line",
       "status": 200,
-      "latency_ms": 291,
+      "latency_ms": 253,
       "success": true,
       "error": null,
       "title": "起跑總在開始前",
@@ -3047,7 +3047,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=7bd0c3ed-7e72-476c-8d17-d4d0ed310bae",
       "status": 200,
-      "latency_ms": 554,
+      "latency_ms": 548,
       "success": true,
       "error": null,
       "title": "起跑總在開始前",
@@ -3056,7 +3056,7 @@
     {
       "url": "https://larch.ink/play/market/74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "status": 200,
-      "latency_ms": 332,
+      "latency_ms": 280,
       "success": true,
       "error": null,
       "title": "仙泉·香布纏．無雙",
@@ -3065,7 +3065,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=74fc7b5a-22ff-42e3-980b-5bdd3701bfff",
       "status": 200,
-      "latency_ms": 531,
+      "latency_ms": 490,
       "success": true,
       "error": null,
       "title": "仙泉·香布纏．無雙",
@@ -3074,7 +3074,7 @@
     {
       "url": "https://larch.ink/play/market/35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "status": 200,
-      "latency_ms": 294,
+      "latency_ms": 285,
       "success": true,
       "error": null,
       "title": "洛泉．袁真跡",
@@ -3083,7 +3083,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=35e85c22-e262-4ad2-93ca-759f6d8c51f8",
       "status": 200,
-      "latency_ms": 533,
+      "latency_ms": 487,
       "success": true,
       "error": null,
       "title": "洛泉．袁真跡",
@@ -3092,7 +3092,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/xiangbuchan",
       "status": 200,
-      "latency_ms": 299,
+      "latency_ms": 284,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏",
@@ -3101,7 +3101,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=458c5e49-9746-41a9-b0a3-5eae2fb8d584",
       "status": 200,
-      "latency_ms": 610,
+      "latency_ms": 486,
       "success": true,
       "error": null,
       "title": "仙泉．香布纏",
@@ -3110,7 +3110,7 @@
     {
       "url": "https://larch.ink/play/market/7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "status": 200,
-      "latency_ms": 293,
+      "latency_ms": 281,
       "success": true,
       "error": null,
       "title": "小遊戲集合・示範",
@@ -3119,7 +3119,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=7a38860b-2864-4676-9a4e-cf464e7c03fe",
       "status": 200,
-      "latency_ms": 525,
+      "latency_ms": 494,
       "success": true,
       "error": null,
       "title": "小遊戲集合・示範",
@@ -3128,7 +3128,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch-inv",
       "status": 200,
-      "latency_ms": 510,
+      "latency_ms": 449,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生・調查篇",
@@ -3137,7 +3137,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=15cf12d3-1ad8-458b-91f6-1ed37136e811",
       "status": 200,
-      "latency_ms": 544,
+      "latency_ms": 498,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生・調查篇",
@@ -3146,7 +3146,7 @@
     {
       "url": "https://larch.ink/play/market/123c83af-0788-4fe5-9cae-ea336d217c3c",
       "status": 200,
-      "latency_ms": 333,
+      "latency_ms": 281,
       "success": true,
       "error": null,
       "title": "晚霞",
@@ -3155,7 +3155,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=123c83af-0788-4fe5-9cae-ea336d217c3c",
       "status": 200,
-      "latency_ms": 517,
+      "latency_ms": 1740,
       "success": true,
       "error": null,
       "title": "晚霞",
@@ -3164,7 +3164,7 @@
     {
       "url": "https://larch.ink/play/market/55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "status": 200,
-      "latency_ms": 266,
+      "latency_ms": 293,
       "success": true,
       "error": null,
       "title": "淡藍與草木灰綠的雨幕",
@@ -3173,7 +3173,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=55eee50f-bddc-4dd1-bad2-43eeec1c4168",
       "status": 200,
-      "latency_ms": 524,
+      "latency_ms": 490,
       "success": true,
       "error": null,
       "title": "淡藍與草木灰綠的雨幕",
@@ -3182,7 +3182,7 @@
     {
       "url": "https://larch.ink/play/market/18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
       "status": 200,
-      "latency_ms": 274,
+      "latency_ms": 270,
       "success": true,
       "error": null,
       "title": "餘燼",
@@ -3191,7 +3191,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=18d113a5-8a47-4ebf-a3ab-9e5b0751766e",
       "status": 200,
-      "latency_ms": 520,
+      "latency_ms": 487,
       "success": true,
       "error": null,
       "title": "餘燼",
@@ -3200,7 +3200,7 @@
     {
       "url": "https://larch.ink/play/market/53c30eb6-bc5b-48bc-a5a7-a35f5da9ec6e",
       "status": 200,
-      "latency_ms": 290,
+      "latency_ms": 309,
       "success": true,
       "error": null,
       "title": "Larch 直播共創板：簡報、共創與練習",
@@ -3209,7 +3209,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=53c30eb6-bc5b-48bc-a5a7-a35f5da9ec6e",
       "status": 200,
-      "latency_ms": 491,
+      "latency_ms": 500,
       "success": true,
       "error": null,
       "title": "Larch 直播共創板：簡報、共創與練習",
@@ -3218,7 +3218,7 @@
     {
       "url": "https://larch.ink/play/market/b3892584-79fc-4c2a-97a2-7394b3df149e",
       "status": 200,
-      "latency_ms": 320,
+      "latency_ms": 280,
       "success": true,
       "error": null,
       "title": "咒泉．白帝城",
@@ -3227,7 +3227,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=b3892584-79fc-4c2a-97a2-7394b3df149e",
       "status": 200,
-      "latency_ms": 521,
+      "latency_ms": 512,
       "success": true,
       "error": null,
       "title": "咒泉．白帝城",
@@ -3236,7 +3236,7 @@
     {
       "url": "https://larch.ink/play/market/174eab77-c1cb-4d0c-b66c-4f1734317946",
       "status": 200,
-      "latency_ms": 286,
+      "latency_ms": 250,
       "success": true,
       "error": null,
       "title": "空白也有質地",
@@ -3245,7 +3245,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=174eab77-c1cb-4d0c-b66c-4f1734317946",
       "status": 200,
-      "latency_ms": 537,
+      "latency_ms": 667,
       "success": true,
       "error": null,
       "title": "空白也有質地",
@@ -3254,7 +3254,7 @@
     {
       "url": "https://larch.ink/play/market/1abe8522-06b6-4527-87ef-ab20eaf9c2af",
       "status": 200,
-      "latency_ms": 353,
+      "latency_ms": 511,
       "success": true,
       "error": null,
       "title": "還沒送到的信",
@@ -3263,7 +3263,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=1abe8522-06b6-4527-87ef-ab20eaf9c2af",
       "status": 200,
-      "latency_ms": 496,
+      "latency_ms": 500,
       "success": true,
       "error": null,
       "title": "還沒送到的信",
@@ -3272,7 +3272,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch-phone",
       "status": 200,
-      "latency_ms": 380,
+      "latency_ms": 258,
       "success": true,
       "error": null,
       "title": "格莉奇傳訊來",
@@ -3281,7 +3281,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=1c011641-e9c0-4559-977a-034f94039ce9",
       "status": 200,
-      "latency_ms": 570,
+      "latency_ms": 504,
       "success": true,
       "error": null,
       "title": "格莉奇傳訊來",
@@ -3290,7 +3290,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/3gurl",
       "status": 200,
-      "latency_ms": 279,
+      "latency_ms": 393,
       "success": true,
       "error": null,
       "title": "咒泉．三結義",
@@ -3299,7 +3299,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=2375b478-10c0-4b52-8ff6-239e57162c64",
       "status": 200,
-      "latency_ms": 542,
+      "latency_ms": 509,
       "success": true,
       "error": null,
       "title": "咒泉．三結義",
@@ -3308,7 +3308,7 @@
     {
       "url": "https://larch.ink/play/market/yaze/glitch",
       "status": 200,
-      "latency_ms": 364,
+      "latency_ms": 317,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生",
@@ -3317,7 +3317,7 @@
     {
       "url": "https://larch.ink/market?section=games&game=a2a10427-7326-4a86-b806-c2476fc1c22a",
       "status": 200,
-      "latency_ms": 517,
+      "latency_ms": 483,
       "success": true,
       "error": null,
       "title": "格莉奇與黑洞先生",
